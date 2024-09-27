@@ -1,0 +1,7 @@
+@definition,@value
+_version,VERSION 1
+_title,Pokespan
+_author,AEPSchmitt
+_description,Rethemed Board Game Cards
+_copyright,CC-BY 4.0
+BACKGROUND,{{resources/backgrounds/background.png}}
