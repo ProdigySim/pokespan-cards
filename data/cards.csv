@@ -1,172 +1,172 @@
-Title,Text,no,Zone,Forest,Grasslands,Wetlands,Energy,Balls,Points,Effector,effector_class,Height,@template
-Bulbasaur,Play an additional pokémon in your {{GRASSLANDS}},001,G,FALSE,TRUE,FALSE,grass,3,3,WHEN PLAYED,WHEN_PLAYED,0.7,../templates/pokemon.html
-Ivysaur,Draw 2 {{POKÉDEX}} and keep 1.,002,G,FALSE,TRUE,FALSE,grass_grass,4,4,WHEN PLAYED,WHEN_PLAYED,1,../templates/pokemon.html
-Venusaur,Gain 1 {{GRASS}} or 1 draw 1 {{POKÉMON}},003,G,FALSE,TRUE,FALSE,grass_grass_grass,6,4,WHEN ACTIVATED,WHEN_ACTIVATED,2,../templates/pokemon.html
-Charmander,Play an additional pokémon in your {{FOREST}},004,F,TRUE,FALSE,FALSE,fire,3,3,WHEN PLAYED,WHEN_PLAYED,0.6,../templates/pokemon.html
-Charmeleon,Draw 2 {{POKÉDEX}} and keep 1.,005,F,TRUE,FALSE,FALSE,fire_fire,4,4,WHEN PLAYED,WHEN_PLAYED,1.1,../templates/pokemon.html
-Charizard,Gain 1 {{FIRE}} or draw 1 {{POKÉMON}},006,FG,TRUE,TRUE,FALSE,fire_fire_fire,5,4,WHEN ACTIVATED,WHEN_ACTIVATED,1.7,../templates/pokemon.html
-Squirtle,Play an additional pokémon in your {{WETLANDS}},007,W,FALSE,FALSE,TRUE,water,3,3,WHEN PLAYED,WHEN_PLAYED,0.5,../templates/pokemon.html
-Wartortle,Draw 2 {{POKÉDEX}} and keep 1.,008,W,FALSE,FALSE,TRUE,water_water,4,4,WHEN PLAYED,WHEN_PLAYED,1,../templates/pokemon.html
-Blastoise,Gain 1 {{WATER}} or draw 1 {{POKÉMON}},009,W,FALSE,FALSE,TRUE,water_water_water,6,4,WHEN ACTIVATED,WHEN_ACTIVATED,1.6,../templates/pokemon.html
-Caterpie,Put 1 {{GRASS}} or {{WATER}} on this pokémon,010,F,TRUE,FALSE,FALSE,grass__water,3,1,WHEN ACTIVATED,WHEN_ACTIVATED,0.3,../templates/pokemon.html
-Metapod,Play an additional pokémon in your {{FOREST}},011,F,TRUE,FALSE,FALSE,grass__water,3,2,WHEN PLAYED,WHEN_PLAYED,0.7,../templates/pokemon.html
-Butterfree,Put 1 {{POKÉBALL}} on this pokémon,012,F,TRUE,FALSE,FALSE,grass__water,5,3,WHEN ACTIVATED,WHEN_ACTIVATED,1.1,../templates/pokemon.html
-Weedle,Put 1 {{GRASS}} or {{WATER}} on this pokémon,013,F,TRUE,FALSE,FALSE,grass__water,3,1,WHEN ACTIVATED,WHEN_ACTIVATED,0.3,../templates/pokemon.html
-Kakuna,Play an additional pokémon in your {{FOREST}},014,F,TRUE,FALSE,FALSE,grass__water,3,2,WHEN PLAYED,WHEN_PLAYED,0.6,../templates/pokemon.html
-Beedrill,Put 1 {{POKÉBALL}} on this pokémon,015,F,TRUE,FALSE,FALSE,grass__water,5,3,WHEN ACTIVATED,WHEN_ACTIVATED,1,../templates/pokemon.html
-Pidgey,If this is the rightmost card. You may move this Pokémon to another area,016,G,FALSE,TRUE,FALSE,any,4,2,WHEN ACTIVATED,WHEN_ACTIVATED,0.3,../templates/pokemon.html
-Pidgeotto,If this is the rightmost card. You may move this Pokémon to another area,017,G,FALSE,TRUE,FALSE,any_any,3,4,WHEN ACTIVATED,WHEN_ACTIVATED,1.1,../templates/pokemon.html
-Pidgeot,If this is the rightmost card. You may move this Pokémon to another area,018,G,FALSE,TRUE,FALSE,any_any_any,2,7,WHEN ACTIVATED,WHEN_ACTIVATED,1.5,../templates/pokemon.html
-Rattata,Gain 1 {{ANY}},019,FG,TRUE,TRUE,FALSE,any,2,3,WHEN ACTIVATED,WHEN_ACTIVATED,0.3,../templates/pokemon.html
-Raticate,Put 1 {{POKÉBALL}} on this pokémon,020,FG,TRUE,TRUE,FALSE,any_any,5,4,WHEN ACTIVATED,WHEN_ACTIVATED,0.7,../templates/pokemon.html
-Spearow,If this is the rightmost card. You may move this Pokémon to another area,021,G,FALSE,TRUE,FALSE,any_any,3,4,WHEN ACTIVATED,WHEN_ACTIVATED,0.3,../templates/pokemon.html
-Fearow,If this is the rightmost card. You may move this Pokémon to another area,022,G,FALSE,TRUE,FALSE,any_any_any,5,3,WHEN ACTIVATED,WHEN_ACTIVATED,1.2,../templates/pokemon.html
-Ekans,Play an additional pokémon in your {{GRASSLANDS}},023,G,FALSE,TRUE,FALSE,grass,3,2,WHEN PLAYED,WHEN_PLAYED,2,../templates/pokemon.html
-Arbok,Put 1 {{POKÉBALL}} on any Pokémon,024,G,FALSE,TRUE,FALSE,grass_grass,5,2,WHEN ACTIVATED,WHEN_ACTIVATED,3.5,../templates/pokemon.html
-Pikachu,"Draw 1 {{POKÉMON}}, put below Pikachu if {{WATER}} pokémon",025,F,TRUE,FALSE,FALSE,lightning,3,5,WHEN ACTIVATED,WHEN_ACTIVATED,0.4,../templates/pokemon.html
-Raichu,Put 1 {{LIGHTNING}} on this pokémon,026,F,TRUE,FALSE,FALSE,lightning_lightning,2,4,WHEN ACTIVATED,WHEN_ACTIVATED,0.8,../templates/pokemon.html
-Sandshrew,Play an additional pokémon in your {{GRASSLANDS}},027,G,FALSE,TRUE,FALSE,fighting,3,3,WHEN PLAYED,WHEN_PLAYED,0.6,../templates/pokemon.html
-Sandslash,Put 1 {{FIGHTING}} on this pokémon,028,G,FALSE,TRUE,FALSE,fighting_fighting,4,2,WHEN ACTIVATED,WHEN_ACTIVATED,1,../templates/pokemon.html
-Nidoran ♀,Play an additional pokémon in your {{FOREST}},029,F,TRUE,FALSE,FALSE,grass,4,2,WHEN PLAYED,WHEN_PLAYED,0.4,../templates/pokemon.html
-Nidorina,Play an additional {{GRASS}} pokémon,030,F,TRUE,FALSE,FALSE,grass_grass,5,3,WHEN PLAYED,WHEN_PLAYED,0.8,../templates/pokemon.html
-Nidoqueen,Put 2 {{POKÉBALL}} on Nidoqueen,031,F,TRUE,FALSE,FALSE,grass_grass_psychic,6,3,WHEN ACTIVATED,WHEN_ACTIVATED,1.3,../templates/pokemon.html
-Nidoran ♂,Play an additional pokémon in your {{FOREST}},032,F,TRUE,FALSE,FALSE,grass,2,4,WHEN PLAYED,WHEN_PLAYED,0.5,../templates/pokemon.html
-Nidorino,Play an additional {{GRASS}} pokémon,033,F,TRUE,FALSE,FALSE,grass_grass,3,3,WHEN PLAYED,WHEN_PLAYED,0.9,../templates/pokemon.html
-Nidoking,"You may put 1 {{POKÉMON}} from your hand below this Pokémon, if you do draw 1 {{POKÉMON}}",034,F,TRUE,FALSE,FALSE,grass_grass_fighting,4,3,WHEN ACTIVATED,WHEN_ACTIVATED,1.4,../templates/pokemon.html
-Clefairy,"When another players Buys Pokéballs, gain 1 {{POKÉBALL}}",035,GW,FALSE,TRUE,TRUE,any_any,5,2,BETWEEN TURNS,BETWEEN_TURNS,0.6,../templates/pokemon.html
-Clefable,Put 1 {{ANY}} on this pokémon,036,GW,FALSE,TRUE,TRUE,any_any_any,1,4,WHEN ACTIVATED,WHEN_ACTIVATED,1.3,../templates/pokemon.html
-Vulpix,Play an additional pokémon in your {{GRASSLANDS}},037,G,FALSE,TRUE,FALSE,fire,2,4,WHEN PLAYED,WHEN_PLAYED,0.6,../templates/pokemon.html
-Ninetales,Put 1 {{FIRE}} on this pokémon,038,G,FALSE,TRUE,FALSE,fire_fire,4,2,WHEN ACTIVATED,WHEN_ACTIVATED,1.1,../templates/pokemon.html
-Jigglypuff,Gain 2 {{ANY}},039,FW,TRUE,FALSE,TRUE,any,1,5,WHEN PLAYED,WHEN_PLAYED,0.5,../templates/pokemon.html
-Wigglytuff,,040,FW,TRUE,FALSE,TRUE,any_any,3,8,,,1,../templates/pokemon.html
-Zubat,If this is the rightmost card. You may move this Pokémon to another area,041,FW,TRUE,FALSE,TRUE,grass,2,3,WHEN ACTIVATED,WHEN_ACTIVATED,0.8,../templates/pokemon.html
-Golbat,"Draw 1 {{POKÉMON}} from the deck, if height is < 0.9, place {{POKÉMON}} below this Pokémon",042,FW,TRUE,FALSE,TRUE,grass_grass,4,2,WHEN ACTIVATED,WHEN_ACTIVATED,1.6,../templates/pokemon.html
-Oddish,Put 1 {{POKÉBALL}} on a {{GRASS}} Pokémon,043,FW,TRUE,FALSE,TRUE,grass,4,1,WHEN ACTIVATED,WHEN_ACTIVATED,0.5,../templates/pokemon.html
-Gloom,Gain 3 {{GRASS}},044,FW,TRUE,FALSE,TRUE,grass_grass,2,3,WHEN PLAYED,WHEN_PLAYED,0.8,../templates/pokemon.html
-Vileplume,"You may put 1 {{POKÉMON}} from your hand below this Pokémon, gain 1 {{GRASS}}",045,FW,TRUE,FALSE,TRUE,grass_grass_grass,3,4,WHEN ACTIVATED,WHEN_ACTIVATED,1.2,../templates/pokemon.html
-Paras,Players with fewest {{GRASS}} Pokémon draw 1 {{POKÉMON}},046,G,FALSE,TRUE,TRUE,grass,3,3,WHEN ACTIVATED,WHEN_ACTIVATED,0.3,../templates/pokemon.html
-Parasect,Put 1 {{POKÉBALL}} on a {{GRASS}} Pokémon,047,G,FALSE,TRUE,TRUE,grass_grass,2,4,WHEN ACTIVATED,WHEN_ACTIVATED,1,../templates/pokemon.html
-Venonat,Gain 3 {{GRASS}},048,F,TRUE,FALSE,FALSE,grass_grass,4,2,WHEN PLAYED,WHEN_PLAYED,1,../templates/pokemon.html
-Venomoth,Draw 2 {{POKÉMON}},049,FGW,TRUE,TRUE,TRUE,grass_grass_psychic,2,6,WHEN PLAYED,WHEN_PLAYED,1.5,../templates/pokemon.html
-Diglett,Put 1 {{POKÉBALL}} on a {{FIGHTING}} Pokémon,050,G,FALSE,TRUE,FALSE,fighting,5,1,WHEN ACTIVATED,WHEN_ACTIVATED,0.2,../templates/pokemon.html
-Dugtrio,Gain 3 {{POKÉBALL}},051,G,FALSE,TRUE,FALSE,fighting_fighting,4,3,WHEN PLAYED,WHEN_PLAYED,0.7,../templates/pokemon.html
-Meowth,All players gain 1 {{ANY}},052,FGW,TRUE,TRUE,TRUE,any_any,2,5,WHEN ACTIVATED,WHEN_ACTIVATED,0.4,../templates/pokemon.html
-Persian,Draw 2 {{POKÉMON}},053,FGW,TRUE,TRUE,TRUE,any_any_any,2,7,WHEN PLAYED,WHEN_PLAYED,1,../templates/pokemon.html
-Psyduck,Gain 1 {{PSYCHIC}} or draw 1 {{POKÉMON}},054,W,FALSE,FALSE,TRUE,water__psychic,4,1,WHEN ACTIVATED,WHEN_ACTIVATED,0.8,../templates/pokemon.html
-Golduck,"You may put 1 {{POKÉMON}} from your hand below this Pokémon, if you do draw 1 {{POKÉMON}}",055,W,FALSE,FALSE,TRUE,water_water_psychic,6,3,WHEN ACTIVATED,WHEN_ACTIVATED,1.7,../templates/pokemon.html
-Mankey,Draw all {{FIGHTING}} from the stadium,056,F,TRUE,FALSE,FALSE,fighting,3,2,WHEN PLAYED,WHEN_PLAYED,0.5,../templates/pokemon.html
-Primeape,Gain 1 {{ANY}},057,F,TRUE,FALSE,FALSE,fighting_fighting,2,4,WHEN ACTIVATED,WHEN_ACTIVATED,1,../templates/pokemon.html
-Growlithe,Put 1 {{FIRE}} on this pokémon,058,G,FALSE,TRUE,FALSE,fire,3,2,WHEN ACTIVATED,WHEN_ACTIVATED,0.7,../templates/pokemon.html
-Arcanine,Put 1 {{POKÉBALL}} on a {{FIRE}} Pokémon,059,G,FALSE,TRUE,FALSE,fire_fire,4,3,WHEN ACTIVATED,WHEN_ACTIVATED,1.9,../templates/pokemon.html
-Poliwag,Put 1 {{WATER}} on this pokémon,060,W,FALSE,FALSE,TRUE,water,3,2,WHEN ACTIVATED,WHEN_ACTIVATED,0.6,../templates/pokemon.html
-Poliwhirl,Discard 1 {{POKÉBALL}} gain 1 {{ANY}},061,W,FALSE,FALSE,TRUE,water_water,4,3,WHEN ACTIVATED,WHEN_ACTIVATED,1,../templates/pokemon.html
-Poliwrath,"Draw 1 {{POKÉMON}} from the deck, if height is < 1.3, place {{POKÉMON}} below this Pokémon",062,W,FALSE,FALSE,TRUE,water_water_fighting,2,4,WHEN ACTIVATED,WHEN_ACTIVATED,1.3,../templates/pokemon.html
-Abra,If this is the rightmost card. You may teleport this Pokémon to another area,063,FGW,TRUE,TRUE,TRUE,psychic,1,4,WHEN ACTIVATED,WHEN_ACTIVATED,0.9,../templates/pokemon.html
-Kadabra,Draw all {{PSYCHIC}} from the stadium,064,FGW,TRUE,TRUE,TRUE,psychic_psychic,2,5,WHEN PLAYED,WHEN_PLAYED,1.3,../templates/pokemon.html
-Alakazam,"Draw 1 {{POKÉMON}} from the deck, if height is < 1.5, place {{POKÉMON}} below this Pokémon",065,FGW,TRUE,TRUE,TRUE,psychic_psychic_lightning,0,6,WHEN ACTIVATED,WHEN_ACTIVATED,1.5,../templates/pokemon.html
-Machop,Play an additional {fightning} pokémon,066,FGW,TRUE,TRUE,TRUE,fighting,4,3,WHEN PLAYED,WHEN_PLAYED,0.8,../templates/pokemon.html
-Machoke,Put 1 {{FIGHTING}} on this pokémon,067,FGW,TRUE,TRUE,TRUE,fighting_fighting,3,2,WHEN ACTIVATED,WHEN_ACTIVATED,1.5,../templates/pokemon.html
-Machamp,"Draw 1 {{POKÉMON}} from the deck, if height is < 2.0, place {{POKÉMON}} below this Pokémon",068,FGW,TRUE,TRUE,TRUE,fighting_fighting_fighting,2,3,WHEN ACTIVATED,WHEN_ACTIVATED,1.6,../templates/pokemon.html
-Bellsprout,Draw all {{GRASS}} from the stadium,069,F,TRUE,FALSE,FALSE,grass,5,2,WHEN PLAYED,WHEN_PLAYED,0.7,../templates/pokemon.html
-Weepinbell,Put 1 {{GRASS}} on this pokémon,070,F,TRUE,FALSE,FALSE,grass_grass,3,2,WHEN ACTIVATED,WHEN_ACTIVATED,1,../templates/pokemon.html
-Victreebel,Put 1 {{POKÉBALL}} on a {{GRASS}} Pokémon,071,F,TRUE,FALSE,FALSE,grass_grass_grass,4,3,WHEN ACTIVATED,WHEN_ACTIVATED,1.7,../templates/pokemon.html
-Tentacool,Play an additional {{WATER}} pokémon,072,W,FALSE,FALSE,TRUE,water,4,3,WHEN PLAYED,WHEN_PLAYED,0.9,../templates/pokemon.html
-Tentacruel,"You may put 1 {{POKÉMON}} from your hand below this Pokémon, gain 1 {{WATER}}",073,W,FALSE,FALSE,TRUE,water_water,2,3,WHEN ACTIVATED,WHEN_ACTIVATED,1.6,../templates/pokemon.html
-Geodude,Play an additional {fightning} pokémon,074,FG,TRUE,TRUE,FALSE,fighting,3,3,WHEN PLAYED,WHEN_PLAYED,0.4,../templates/pokemon.html
-Graveler,"Draw 1 {{POKÉMON}} from the deck, if height is < 1.1, place {{POKÉMON}} below this Pokémon",075,FG,TRUE,TRUE,FALSE,fighting_fighting,4,2,WHEN ACTIVATED,WHEN_ACTIVATED,1,../templates/pokemon.html
-Golem,Player(s) with the fewest Pokémon draw 1 {{POKÉMON}},076,FG,TRUE,TRUE,FALSE,fighting_fighting_fire,5,5,WHEN ACTIVATED,WHEN_ACTIVATED,1.4,../templates/pokemon.html
-Ponyta,Play an additional {{FIRE}} pokémon,077,G,FALSE,TRUE,FALSE,fire,4,2,WHEN PLAYED,WHEN_PLAYED,1,../templates/pokemon.html
-Rapidash,Draw all {{FIRE}} from the stadium,078,G,FALSE,TRUE,FALSE,fire_fire,2,5,WHEN PLAYED,WHEN_PLAYED,1.7,../templates/pokemon.html
-Slowpoke,Draw 1 {{POKÉMON}},079,W,FALSE,FALSE,TRUE,psychic,5,1,WHEN ACTIVATED,WHEN_ACTIVATED,1.2,../templates/pokemon.html
-Slowbro,Put 1 {{PSYCHIC}} on this pokémon,080,W,FALSE,FALSE,TRUE,psychic_psychic,6,2,WHEN ACTIVATED,WHEN_ACTIVATED,1.6,../templates/pokemon.html
-Magnemite,Put 1 {{LIGHTNING}} on this pokémon,081,FG,TRUE,TRUE,FALSE,lightning,3,1,WHEN ACTIVATED,WHEN_ACTIVATED,0.3,../templates/pokemon.html
-Magneton,Draw all {{LIGHTNING}} from the stadium,082,FG,TRUE,TRUE,FALSE,lightning_lightning,3,5,WHEN PLAYED,WHEN_PLAYED,1,../templates/pokemon.html
-Farfetch'd,Put 1 {{ANY}} on this pokémon,083,FW,TRUE,FALSE,TRUE,any,4,1,WHEN ACTIVATED,WHEN_ACTIVATED,0.8,../templates/pokemon.html
-Doduo,If this is the rightmost card. You may move this Pokémon to another area,084,GW,FALSE,TRUE,TRUE,any_any,2,4,WHEN ACTIVATED,WHEN_ACTIVATED,1.4,../templates/pokemon.html
-Dodrio,Roll all {{DICE}} and choose 2 to gain,085,GW,FALSE,TRUE,TRUE,any_any_any,3,2,WHEN ACTIVATED,WHEN_ACTIVATED,1.8,../templates/pokemon.html
-Seel,Discard 1 {{POKÉBALL}} draw 2 {{POKÉMON}},086,W,FALSE,FALSE,TRUE,water,2,2,WHEN ACTIVATED,WHEN_ACTIVATED,1.1,../templates/pokemon.html
-Dewgong,Put 1 {{POKÉMON}} from your hand under this pokémon to gain 1 {{WATER}},087,W,FALSE,FALSE,TRUE,water_water,3,2,WHEN ACTIVATED,WHEN_ACTIVATED,1.7,../templates/pokemon.html
-Grimer,Discard 1 {{POKÉBALL}} draw 2 {{POKÉMON}},088,W,FALSE,FALSE,TRUE,grass_any,2,3,WHEN ACTIVATED,WHEN_ACTIVATED,0.9,../templates/pokemon.html
-Muk,Gain 1 {{GRASS}} or 1 draw 1 {{POKÉMON}},089,W,FALSE,FALSE,TRUE,grass_any_any,3,4,WHEN ACTIVATED,WHEN_ACTIVATED,1.2,../templates/pokemon.html
-Shellder,When another player plays a Pokémon in {{WETLANDS}} draw 1 {{POKÉMON}},090,W,FALSE,FALSE,TRUE,water,1,3,BETWEEN TURNS,BETWEEN_TURNS,0.3,../templates/pokemon.html
-Cloyster,"Roll all {{DICE}}, if at least 1 {{WATER}} gain 1 {{WATER}}",091,W,FALSE,FALSE,TRUE,water_water,2,5,WHEN ACTIVATED,WHEN_ACTIVATED,1.5,../templates/pokemon.html
-Gastly,Put 1 {{POKÉBALL}} on a {{PSYCHIC}} Pokémon,092,F,TRUE,FALSE,FALSE,psychic_any,2,6,WHEN ACTIVATED,WHEN_ACTIVATED,1.3,../templates/pokemon.html
-Haunter,"You may put 1 {{POKÉMON}} from your hand below this Pokémon, gain 1 {{PSYCHIC}}",093,F,TRUE,FALSE,FALSE,psychic_psychic_any,4,5,WHEN ACTIVATED,WHEN_ACTIVATED,1.6,../templates/pokemon.html
-Gengar,Put 1 {{PSYCHIC}} on this pokémon,094,F,TRUE,FALSE,FALSE,psychic_psychic_any_any,6,4,WHEN ACTIVATED,WHEN_ACTIVATED,1.5,../templates/pokemon.html
-Onix,Draw 1 {{POKÉMON}},095,G,FALSE,TRUE,FALSE,fighting_fighting,0,7,WHEN ACTIVATED,WHEN_ACTIVATED,8.8,../templates/pokemon.html
-Drowzee,Play an additional {{PSYCHIC}} pokémon,096,FGW,TRUE,TRUE,TRUE,psychic_any,2,3,WHEN PLAYED,WHEN_PLAYED,1,../templates/pokemon.html
-Hypno,You may put 1 {{POKÉMON}} from your hand below this Pokémon and 1 {{POKÉBALL}} on this Pokémon,097,FGW,TRUE,TRUE,TRUE,psychic_psychic_any,4,3,WHEN ACTIVATED,WHEN_ACTIVATED,1.6,../templates/pokemon.html
-Krabby,Players with fewest Pokémon in {{WETLANDS}} draw 1 {{POKÉMON}},098,W,FALSE,FALSE,TRUE,water,2,4,WHEN ACTIVATED,WHEN_ACTIVATED,0.4,../templates/pokemon.html
-Kingler,When another player plays a Pokémon in {{WETLANDS}} draw 1 {{POKÉMON}},099,W,FALSE,FALSE,TRUE,water_water,2,6,BETWEEN TURNS,BETWEEN_TURNS,1.3,../templates/pokemon.html
-Voltorb,Put 1 {{POKÉBALL}} on any Pokémon,100,FG,TRUE,TRUE,FALSE,lightning_any,5,3,WHEN ACTIVATED,WHEN_ACTIVATED,0.5,../templates/pokemon.html
-Electrode,Spend 1 {{LIGHTNING}} to gain 2 {{POKÉBALL}},101,FG,TRUE,TRUE,FALSE,lightning_lightning_any,6,4,WHEN ACTIVATED,WHEN_ACTIVATED,1.2,../templates/pokemon.html
-Exeggcute,Draw 2 {{POKÉMON}},102,FGW,TRUE,TRUE,TRUE,grass_any,4,5,WHEN PLAYED,WHEN_PLAYED,0.4,../templates/pokemon.html
-Exeggutor,"Draw 1 {{POKÉMON}} from the deck, if height is < 1.3, place {{POKÉMON}} below this Pokémon",103,FGW,TRUE,TRUE,TRUE,grass_grass_any,5,3,WHEN ACTIVATED,WHEN_ACTIVATED,2,../templates/pokemon.html
-Cubone,Draw 2 {{POKÉDEX}} and keep 1.,104,G,FALSE,TRUE,FALSE,fighting,4,3,WHEN PLAYED,WHEN_PLAYED,0.4,../templates/pokemon.html
-Marowak,"You may put 1 {{POKÉMON}} from your hand below this Pokémon, gain 1 {{FIGHTING}}",105,G,FALSE,TRUE,FALSE,fighting_fighting,3,3,WHEN ACTIVATED,WHEN_ACTIVATED,1,../templates/pokemon.html
-Hitmonlee,Discard 1 {{FIGHTING}} to put 2 {{POKÉMON}} under this one,106,FGW,TRUE,TRUE,TRUE,fighting_fighting,3,1,WHEN ACTIVATED,WHEN_ACTIVATED,1.5,../templates/pokemon.html
-Hitmonchan,Discard 1 {{FIGHTING}} to put 2 {{POKÉMON}} under this one,107,FGW,TRUE,TRUE,TRUE,fighting_fighting,3,1,WHEN ACTIVATED,WHEN_ACTIVATED,1.4,../templates/pokemon.html
-Lickitung,Lick another player. Then steal 1 {{ANY}} from them.,108,FW,TRUE,FALSE,TRUE,any_any_any,3,5,WHEN ACTIVATED,WHEN_ACTIVATED,1.2,../templates/pokemon.html
-Koffing,Play an additional pokémon in your {{GRASSLANDS}},109,G,FALSE,TRUE,FALSE,grass_any,4,3,WHEN PLAYED,WHEN_PLAYED,0.6,../templates/pokemon.html
-Weezing,Self-destruct. Remove all {{POKÉBALL}} from other players then remove this pokémon.,110,G,FALSE,TRUE,FALSE,grass_grass_fire,5,2,BETWEEN TURNS,BETWEEN_TURNS,1.2,../templates/pokemon.html
-Rhyhorn,Put 2 {{POKÉBALL}} on this Pokémon,111,G,FALSE,TRUE,FALSE,fighting_grass_any,6,2,WHEN ACTIVATED,WHEN_ACTIVATED,1,../templates/pokemon.html
-Rhydon,Discard 1 {{POKÉBALL}} gain 1 {{ANY}},112,G,FALSE,TRUE,FALSE,fighting_lightning_any_any,6,4,WHEN ACTIVATED,WHEN_ACTIVATED,1.9,../templates/pokemon.html
-Chansey,Roll all {{DICE}} and gain the result,113,FW,TRUE,FALSE,TRUE,any_any_any,1,8,WHEN PLAYED,WHEN_PLAYED,1.1,../templates/pokemon.html
-Tangela,"You may put 1 {{POKÉMON}} from your hand below this Pokémon, gain 1 {{GRASS}}",114,FW,TRUE,FALSE,TRUE,grass_any,6,1,WHEN ACTIVATED,WHEN_ACTIVATED,1,../templates/pokemon.html
-Kangaskhan,Roll all {{DICE}}. Gain {{ANY}} as eggs (place anywhere),115,FG,TRUE,TRUE,FALSE,any_any_any_any,6,6,WHEN ACTIVATED,WHEN_ACTIVATED,2.2,../templates/pokemon.html
-Horsea,Put 1 {{POKÉBALL}} on a {{WATER}} Pokémon,116,W,FALSE,FALSE,TRUE,water,4,3,WHEN ACTIVATED,WHEN_ACTIVATED,0.4,../templates/pokemon.html
-Seadra,Put 1 {{WATER}} on this pokémon,117,W,FALSE,FALSE,TRUE,water_water,6,1,WHEN ACTIVATED,WHEN_ACTIVATED,1.2,../templates/pokemon.html
-Goldeen,Draw 1 {{POKÉMON}},118,W,FALSE,FALSE,TRUE,water,5,3,WHEN ACTIVATED,WHEN_ACTIVATED,0.6,../templates/pokemon.html
-Seaking,"You may put 1 {{POKÉMON}} from your hand below this Pokémon, gain 1 {{WATER}}",119,W,FALSE,FALSE,TRUE,water_lightning,5,3,WHEN ACTIVATED,WHEN_ACTIVATED,1.3,../templates/pokemon.html
-Staryu,Play an additional {{WATER}} pokémon,120,W,FALSE,FALSE,TRUE,water,6,3,WHEN PLAYED,WHEN_PLAYED,0.8,../templates/pokemon.html
-Starmie,Draw all {{WATER}} from the stadium,121,W,FALSE,FALSE,TRUE,water_water,3,6,WHEN PLAYED,WHEN_PLAYED,1.1,../templates/pokemon.html
-Mr. Mime,Imitate the effect of another Pokémon in play,122,FGW,TRUE,TRUE,TRUE,psychic_psychic,2,4,WHEN ACTIVATED,WHEN_ACTIVATED,1.3,../templates/pokemon.html
-Scyther,Put 1 {{GRASS}} on this pokémon,123,FG,TRUE,TRUE,FALSE,grass_grass_any,3,5,WHEN ACTIVATED,WHEN_ACTIVATED,1.5,../templates/pokemon.html
-Jynx,Put 1 {{PSYCHIC}} on this pokémon,124,FGW,TRUE,TRUE,TRUE,psychic_psychic,4,1,WHEN ACTIVATED,WHEN_ACTIVATED,1.4,../templates/pokemon.html
-Electabuzz,Gain 1 {{LIGHTNING}} or draw 1 {{POKÉMON}},125,G,FALSE,TRUE,FALSE,lightning_lightning,1,6,WHEN ACTIVATED,WHEN_ACTIVATED,1.1,../templates/pokemon.html
-Magmar,"You may put 1 {{POKÉMON}} from your hand below this Pokémon, gain 1 {{FIRE}}",126,FG,TRUE,TRUE,FALSE,fire_fire,1,6,WHEN ACTIVATED,WHEN_ACTIVATED,1.3,../templates/pokemon.html
-Pinsir,"Draw 1 {{POKÉMON}} from the deck, if height is < 0.7, place {{POKÉMON}} below this Pokémon",127,FG,TRUE,TRUE,FALSE,grass_any,1,4,WHEN ACTIVATED,WHEN_ACTIVATED,1.5,../templates/pokemon.html
-Tauros,Discard 1 {{POKÉBALL}} draw 2 {{POKÉMON}},128,G,FALSE,TRUE,FALSE,any_any_any,2,4,WHEN ACTIVATED,WHEN_ACTIVATED,1.4,../templates/pokemon.html
-Magikarp,Draw all {{WATER}} from the stadium,129,W,FALSE,FALSE,TRUE,water,6,0,WHEN PLAYED,WHEN_PLAYED,0.9,../templates/pokemon.html
-Gyarados,"Draw 1 {{POKÉMON}} from the deck, if height is < 2.5, place {{POKÉMON}} below this Pokémon",130,W,FALSE,FALSE,TRUE,water_water_any,1,5,WHEN ACTIVATED,WHEN_ACTIVATED,6.5,../templates/pokemon.html
-Lapras,Move up to 2 {{POKÉBALL}} between your Pokémon,131,W,FALSE,FALSE,TRUE,water_water,2,7,WHEN ACTIVATED,WHEN_ACTIVATED,2.5,../templates/pokemon.html
-Ditto,Imitate the effect of another Pokémon in play,132,FGW,TRUE,TRUE,TRUE,,1,3,WHEN ACTIVATED,WHEN_ACTIVATED,0.3,../templates/pokemon.html
-Eevee,Draw 2 {{POKÉDEX}} and keep 1.,133,G,FALSE,TRUE,FALSE,any,2,3,WHEN PLAYED,WHEN_PLAYED,0.3,../templates/pokemon.html
-Vaporeon,Fill this pokémon with {{POKÉBALL}},134,W,FALSE,FALSE,TRUE,water_any,6,3,WHEN PLAYED,WHEN_PLAYED,1,../templates/pokemon.html
-Jolteon,"You may put 1 {{POKÉMON}} from your hand below this Pokémon, gain 1 {{LIGHTNING}}",135,FG,TRUE,TRUE,FALSE,lightning_any,4,3,WHEN ACTIVATED,WHEN_ACTIVATED,0.8,../templates/pokemon.html
-Flareon,Put 1 {{POKÉBALL}} on a {{FIRE}} Pokémon,136,FG,TRUE,TRUE,FALSE,fire_any,4,3,WHEN ACTIVATED,WHEN_ACTIVATED,0.9,../templates/pokemon.html
-Porygon,Draw 2 {{POKÉDEX}} and keep 1.,137,FGW,TRUE,TRUE,TRUE,any_any,3,4,WHEN PLAYED,WHEN_PLAYED,0.8,../templates/pokemon.html
-Omanyte,If a {{DICE}} lands on {{WATER}} gain 1 {{WATER}},138,W,FALSE,FALSE,TRUE,water,2,4,BETWEEN TURNS,BETWEEN_TURNS,0.4,../templates/pokemon.html
-Omastar,Draw 1 {{POKÉMON}},139,W,FALSE,FALSE,TRUE,water_water,3,5,WHEN ACTIVATED,WHEN_ACTIVATED,1,../templates/pokemon.html
-Kabuto,Gain 1 {{FIGHTING}} or draw 1 {{POKÉMON}},140,FW,TRUE,FALSE,TRUE,fighting_any,2,5,WHEN ACTIVATED,WHEN_ACTIVATED,0.5,../templates/pokemon.html
-Kabutops,Gain 1 {{WATER}} or draw 1 {{POKÉMON}},141,FW,TRUE,FALSE,TRUE,fighting_fighting_any,1,6,WHEN ACTIVATED,WHEN_ACTIVATED,1.3,../templates/pokemon.html
-Aerodactyl,"Draw 1 {{POKÉMON}} from the deck, if height is < 1.1, place {{POKÉMON}} below this Pokémon",142,FGW,TRUE,TRUE,TRUE,fighting_fighting,4,2,WHEN ACTIVATED,WHEN_ACTIVATED,1.8,../templates/pokemon.html
-Snorlax,,143,FGW,TRUE,TRUE,TRUE,any_any_any_any,3,9,,,2.1,../templates/pokemon.html
-Articuno,Allows exchange between {{POKÉBALL}} and {{WATER}},144,FGW,TRUE,TRUE,TRUE,water_water_water,1,9,POKÉMON POWER,POKÉMON_POWER,1.7,../templates/pokemon.html
-Zapdos,Allows exchange between {{POKÉBALL}} and {{LIGHTNING}},145,FGW,TRUE,TRUE,TRUE,lightning_lightning_lightning,1,9,POKÉMON POWER,POKÉMON_POWER,1.6,../templates/pokemon.html
-Moltres,Allows exchange between {{POKÉBALL}} and {{FIRE}},146,FG,TRUE,TRUE,FALSE,fire_fire_fire,2,9,POKÉMON POWER,POKÉMON_POWER,2,../templates/pokemon.html
-Dratini,Play an additional pokémon in your {{WETLANDS}},147,W,FALSE,FALSE,TRUE,any,2,5,WHEN PLAYED,WHEN_PLAYED,1.8,../templates/pokemon.html
-Dragonair,Draw 2 {{POKÉDEX}} and keep 1.,148,W,FALSE,FALSE,TRUE,water_lightning,3,6,WHEN PLAYED,WHEN_PLAYED,4,../templates/pokemon.html
-Dragonite,,149,FGW,TRUE,TRUE,TRUE,water_lightning_fire,4,7,,,2.2,../templates/pokemon.html
-Mewtwo,Steal 1 {{ANY}} from any pokémon and place on Mewtwo,150,FGW,TRUE,TRUE,TRUE,psychic_psychic_psychic,0,8,WHEN ACTIVATED,WHEN_ACTIVATED,2,../templates/pokemon.html
-Mew,All your pokémon are immune to stealing,151,FGW,TRUE,TRUE,TRUE,psychic_psychic_any,2,9,POKÉMON POWER,POKÉMON_POWER,0.4,../templates/pokemon.html
-Elemental,Different Pokémon types,3 to 4,4,5+,7,,,,,,,,../templates/pokedex.html
-Ash Ketchum,Pokémon worth <4 points,4 to 6,3,7+,6,,,,,,,,../templates/pokedex.html
-Viridian Forest,Pokémon that can only live in {{FOREST}},2 to 3,3,4+,8,,,,,,,,../templates/pokedex.html
-Snoop,Pokémon that can only live in {{GRASSLANDS}},2 to 3,3,4+,8,,,,,,,,../templates/pokedex.html
-Soggy feet,Pokémon that can only live in {{WETLANDS}},2 to 3,3,4+,8,,,,,,,,../templates/pokedex.html
-Size Matters,Pokémon >1.5m,4 to 5,3,6+,6,,,,,,,,../templates/pokedex.html
-Ballsy,Pokémon with at least 1 {{POKÉBALL}},6 to 8,3,9+,6,,,,,,,,../templates/pokedex.html
-Normality,Pokémon using {{ANY}},3 to 5,2,6+,6,,,,,,,,../templates/pokedex.html
-Electric!,{{LIGHTNING}} Pokémon,1 to 3,3,4+,7,,,,,,,,../templates/pokedex.html
-Hot!,{{FIRE}} Pokémon,1 to 3,3,4+,7,,,,,,,,../templates/pokedex.html
-Hippie,{{GRASS}} Pokémon,2 to 3,3,4+,7,,,,,,,,../templates/pokedex.html
-Mental,{{PSYCHIC}} Pokémon,1 to 3,3,4+,7,,,,,,,,../templates/pokedex.html
-Bully,{{FIGHTING}} Pokémon,2 to 3,4,4+,7,,,,,,,,../templates/pokedex.html
-Slippery,{{WATER}} Pokémon,2 to 3,3,4+,7,,,,,,,,../templates/pokedex.html
-Lonely,Pokémon in your area with the fewest pokémon,,3,,,,,,,,,,../templates/pokedex_alt.html
-Even tempered,Odd-numbered Pokémon,,2,,,,,,,,,,../templates/pokedex_alt.html
-Odd one out,Even-numbered Pokémon,,2,,,,,,,,,,../templates/pokedex_alt.html
-Energetic,Pokémon that require multiple energy types to play,2 to 4,4,5+,8,,,,,,,,../templates/pokedex.html
-Petting Zoo,Pokémon <1.0m,3 to 5,3,6+,6,,,,,,,,../templates/pokedex.html
-Gotta Catch 'Em All,Pokémon with 4+ Pokéballs,,1,,,,,,,,,,../templates/pokedex_alt.html
+Title,Text,no,Zone,Forest,Grasslands,Wetlands,Energy,Balls,Points,Effector,effector_class,Height,@template,@template-back
+Bulbasaur,Play an additional pokémon in your {{GRASSLANDS}},001,G,FALSE,TRUE,FALSE,grass,3,3,WHEN PLAYED,WHEN_PLAYED,0.7,../templates/pokemon.html,../templates/pokemon_back.html
+Ivysaur,Draw 2 {{POKÉDEX}} and keep 1.,002,G,FALSE,TRUE,FALSE,grass_grass,4,4,WHEN PLAYED,WHEN_PLAYED,1,../templates/pokemon.html,../templates/pokemon_back.html
+Venusaur,Gain 1 {{GRASS}} or 1 draw 1 {{POKÉMON}},003,G,FALSE,TRUE,FALSE,grass_grass_grass,6,4,WHEN ACTIVATED,WHEN_ACTIVATED,2,../templates/pokemon.html,../templates/pokemon_back.html
+Charmander,Play an additional pokémon in your {{FOREST}},004,F,TRUE,FALSE,FALSE,fire,3,3,WHEN PLAYED,WHEN_PLAYED,0.6,../templates/pokemon.html,../templates/pokemon_back.html
+Charmeleon,Draw 2 {{POKÉDEX}} and keep 1.,005,F,TRUE,FALSE,FALSE,fire_fire,4,4,WHEN PLAYED,WHEN_PLAYED,1.1,../templates/pokemon.html,../templates/pokemon_back.html
+Charizard,Gain 1 {{FIRE}} or draw 1 {{POKÉMON}},006,FG,TRUE,TRUE,FALSE,fire_fire_fire,5,4,WHEN ACTIVATED,WHEN_ACTIVATED,1.7,../templates/pokemon.html,../templates/pokemon_back.html
+Squirtle,Play an additional pokémon in your {{WETLANDS}},007,W,FALSE,FALSE,TRUE,water,3,3,WHEN PLAYED,WHEN_PLAYED,0.5,../templates/pokemon.html,../templates/pokemon_back.html
+Wartortle,Draw 2 {{POKÉDEX}} and keep 1.,008,W,FALSE,FALSE,TRUE,water_water,4,4,WHEN PLAYED,WHEN_PLAYED,1,../templates/pokemon.html,../templates/pokemon_back.html
+Blastoise,Gain 1 {{WATER}} or draw 1 {{POKÉMON}},009,W,FALSE,FALSE,TRUE,water_water_water,6,4,WHEN ACTIVATED,WHEN_ACTIVATED,1.6,../templates/pokemon.html,../templates/pokemon_back.html
+Caterpie,Put 1 {{GRASS}} or {{WATER}} on this pokémon,010,F,TRUE,FALSE,FALSE,grass__water,3,1,WHEN ACTIVATED,WHEN_ACTIVATED,0.3,../templates/pokemon.html,../templates/pokemon_back.html
+Metapod,Play an additional pokémon in your {{FOREST}},011,F,TRUE,FALSE,FALSE,grass__water,3,2,WHEN PLAYED,WHEN_PLAYED,0.7,../templates/pokemon.html,../templates/pokemon_back.html
+Butterfree,Put 1 {{POKÉBALL}} on this pokémon,012,F,TRUE,FALSE,FALSE,grass__water,5,3,WHEN ACTIVATED,WHEN_ACTIVATED,1.1,../templates/pokemon.html,../templates/pokemon_back.html
+Weedle,Put 1 {{GRASS}} or {{WATER}} on this pokémon,013,F,TRUE,FALSE,FALSE,grass__water,3,1,WHEN ACTIVATED,WHEN_ACTIVATED,0.3,../templates/pokemon.html,../templates/pokemon_back.html
+Kakuna,Play an additional pokémon in your {{FOREST}},014,F,TRUE,FALSE,FALSE,grass__water,3,2,WHEN PLAYED,WHEN_PLAYED,0.6,../templates/pokemon.html,../templates/pokemon_back.html
+Beedrill,Put 1 {{POKÉBALL}} on this pokémon,015,F,TRUE,FALSE,FALSE,grass__water,5,3,WHEN ACTIVATED,WHEN_ACTIVATED,1,../templates/pokemon.html,../templates/pokemon_back.html
+Pidgey,If this is the rightmost card. You may move this Pokémon to another area,016,G,FALSE,TRUE,FALSE,any,4,2,WHEN ACTIVATED,WHEN_ACTIVATED,0.3,../templates/pokemon.html,../templates/pokemon_back.html
+Pidgeotto,If this is the rightmost card. You may move this Pokémon to another area,017,G,FALSE,TRUE,FALSE,any_any,3,4,WHEN ACTIVATED,WHEN_ACTIVATED,1.1,../templates/pokemon.html,../templates/pokemon_back.html
+Pidgeot,If this is the rightmost card. You may move this Pokémon to another area,018,G,FALSE,TRUE,FALSE,any_any_any,2,7,WHEN ACTIVATED,WHEN_ACTIVATED,1.5,../templates/pokemon.html,../templates/pokemon_back.html
+Rattata,Gain 1 {{ANY}},019,FG,TRUE,TRUE,FALSE,any,2,3,WHEN ACTIVATED,WHEN_ACTIVATED,0.3,../templates/pokemon.html,../templates/pokemon_back.html
+Raticate,Put 1 {{POKÉBALL}} on this pokémon,020,FG,TRUE,TRUE,FALSE,any_any,5,4,WHEN ACTIVATED,WHEN_ACTIVATED,0.7,../templates/pokemon.html,../templates/pokemon_back.html
+Spearow,If this is the rightmost card. You may move this Pokémon to another area,021,G,FALSE,TRUE,FALSE,any_any,3,4,WHEN ACTIVATED,WHEN_ACTIVATED,0.3,../templates/pokemon.html,../templates/pokemon_back.html
+Fearow,If this is the rightmost card. You may move this Pokémon to another area,022,G,FALSE,TRUE,FALSE,any_any_any,5,3,WHEN ACTIVATED,WHEN_ACTIVATED,1.2,../templates/pokemon.html,../templates/pokemon_back.html
+Ekans,Play an additional pokémon in your {{GRASSLANDS}},023,G,FALSE,TRUE,FALSE,grass,3,2,WHEN PLAYED,WHEN_PLAYED,2,../templates/pokemon.html,../templates/pokemon_back.html
+Arbok,Put 1 {{POKÉBALL}} on any Pokémon,024,G,FALSE,TRUE,FALSE,grass_grass,5,2,WHEN ACTIVATED,WHEN_ACTIVATED,3.5,../templates/pokemon.html,../templates/pokemon_back.html
+Pikachu,"Draw 1 {{POKÉMON}}, put below Pikachu if {{WATER}} pokémon",025,F,TRUE,FALSE,FALSE,lightning,3,5,WHEN ACTIVATED,WHEN_ACTIVATED,0.4,../templates/pokemon.html,../templates/pokemon_back.html
+Raichu,Put 1 {{LIGHTNING}} on this pokémon,026,F,TRUE,FALSE,FALSE,lightning_lightning,2,4,WHEN ACTIVATED,WHEN_ACTIVATED,0.8,../templates/pokemon.html,../templates/pokemon_back.html
+Sandshrew,Play an additional pokémon in your {{GRASSLANDS}},027,G,FALSE,TRUE,FALSE,fighting,3,3,WHEN PLAYED,WHEN_PLAYED,0.6,../templates/pokemon.html,../templates/pokemon_back.html
+Sandslash,Put 1 {{FIGHTING}} on this pokémon,028,G,FALSE,TRUE,FALSE,fighting_fighting,4,2,WHEN ACTIVATED,WHEN_ACTIVATED,1,../templates/pokemon.html,../templates/pokemon_back.html
+Nidoran ♀,Play an additional pokémon in your {{FOREST}},029,F,TRUE,FALSE,FALSE,grass,4,2,WHEN PLAYED,WHEN_PLAYED,0.4,../templates/pokemon.html,../templates/pokemon_back.html
+Nidorina,Play an additional {{GRASS}} pokémon,030,F,TRUE,FALSE,FALSE,grass_grass,5,3,WHEN PLAYED,WHEN_PLAYED,0.8,../templates/pokemon.html,../templates/pokemon_back.html
+Nidoqueen,Put 2 {{POKÉBALL}} on Nidoqueen,031,F,TRUE,FALSE,FALSE,grass_grass_psychic,6,3,WHEN ACTIVATED,WHEN_ACTIVATED,1.3,../templates/pokemon.html,../templates/pokemon_back.html
+Nidoran ♂,Play an additional pokémon in your {{FOREST}},032,F,TRUE,FALSE,FALSE,grass,2,4,WHEN PLAYED,WHEN_PLAYED,0.5,../templates/pokemon.html,../templates/pokemon_back.html
+Nidorino,Play an additional {{GRASS}} pokémon,033,F,TRUE,FALSE,FALSE,grass_grass,3,3,WHEN PLAYED,WHEN_PLAYED,0.9,../templates/pokemon.html,../templates/pokemon_back.html
+Nidoking,"You may put 1 {{POKÉMON}} from your hand below this Pokémon, if you do draw 1 {{POKÉMON}}",034,F,TRUE,FALSE,FALSE,grass_grass_fighting,4,3,WHEN ACTIVATED,WHEN_ACTIVATED,1.4,../templates/pokemon.html,../templates/pokemon_back.html
+Clefairy,"When another players Buys Pokéballs, gain 1 {{POKÉBALL}}",035,GW,FALSE,TRUE,TRUE,any_any,5,2,BETWEEN TURNS,BETWEEN_TURNS,0.6,../templates/pokemon.html,../templates/pokemon_back.html
+Clefable,Put 1 {{ANY}} on this pokémon,036,GW,FALSE,TRUE,TRUE,any_any_any,1,4,WHEN ACTIVATED,WHEN_ACTIVATED,1.3,../templates/pokemon.html,../templates/pokemon_back.html
+Vulpix,Play an additional pokémon in your {{GRASSLANDS}},037,G,FALSE,TRUE,FALSE,fire,2,4,WHEN PLAYED,WHEN_PLAYED,0.6,../templates/pokemon.html,../templates/pokemon_back.html
+Ninetales,Put 1 {{FIRE}} on this pokémon,038,G,FALSE,TRUE,FALSE,fire_fire,4,2,WHEN ACTIVATED,WHEN_ACTIVATED,1.1,../templates/pokemon.html,../templates/pokemon_back.html
+Jigglypuff,Gain 2 {{ANY}},039,FW,TRUE,FALSE,TRUE,any,1,5,WHEN PLAYED,WHEN_PLAYED,0.5,../templates/pokemon.html,../templates/pokemon_back.html
+Wigglytuff,,040,FW,TRUE,FALSE,TRUE,any_any,3,8,,,1,../templates/pokemon.html,../templates/pokemon_back.html
+Zubat,If this is the rightmost card. You may move this Pokémon to another area,041,FW,TRUE,FALSE,TRUE,grass,2,3,WHEN ACTIVATED,WHEN_ACTIVATED,0.8,../templates/pokemon.html,../templates/pokemon_back.html
+Golbat,"Draw 1 {{POKÉMON}} from the deck, if height is < 0.9, place {{POKÉMON}} below this Pokémon",042,FW,TRUE,FALSE,TRUE,grass_grass,4,2,WHEN ACTIVATED,WHEN_ACTIVATED,1.6,../templates/pokemon.html,../templates/pokemon_back.html
+Oddish,Put 1 {{POKÉBALL}} on a {{GRASS}} Pokémon,043,FW,TRUE,FALSE,TRUE,grass,4,1,WHEN ACTIVATED,WHEN_ACTIVATED,0.5,../templates/pokemon.html,../templates/pokemon_back.html
+Gloom,Gain 3 {{GRASS}},044,FW,TRUE,FALSE,TRUE,grass_grass,2,3,WHEN PLAYED,WHEN_PLAYED,0.8,../templates/pokemon.html,../templates/pokemon_back.html
+Vileplume,"You may put 1 {{POKÉMON}} from your hand below this Pokémon, gain 1 {{GRASS}}",045,FW,TRUE,FALSE,TRUE,grass_grass_grass,3,4,WHEN ACTIVATED,WHEN_ACTIVATED,1.2,../templates/pokemon.html,../templates/pokemon_back.html
+Paras,Players with fewest {{GRASS}} Pokémon draw 1 {{POKÉMON}},046,G,FALSE,TRUE,TRUE,grass,3,3,WHEN ACTIVATED,WHEN_ACTIVATED,0.3,../templates/pokemon.html,../templates/pokemon_back.html
+Parasect,Put 1 {{POKÉBALL}} on a {{GRASS}} Pokémon,047,G,FALSE,TRUE,TRUE,grass_grass,2,4,WHEN ACTIVATED,WHEN_ACTIVATED,1,../templates/pokemon.html,../templates/pokemon_back.html
+Venonat,Gain 3 {{GRASS}},048,F,TRUE,FALSE,FALSE,grass_grass,4,2,WHEN PLAYED,WHEN_PLAYED,1,../templates/pokemon.html,../templates/pokemon_back.html
+Venomoth,Draw 2 {{POKÉMON}},049,FGW,TRUE,TRUE,TRUE,grass_grass_psychic,2,6,WHEN PLAYED,WHEN_PLAYED,1.5,../templates/pokemon.html,../templates/pokemon_back.html
+Diglett,Put 1 {{POKÉBALL}} on a {{FIGHTING}} Pokémon,050,G,FALSE,TRUE,FALSE,fighting,5,1,WHEN ACTIVATED,WHEN_ACTIVATED,0.2,../templates/pokemon.html,../templates/pokemon_back.html
+Dugtrio,Gain 3 {{POKÉBALL}},051,G,FALSE,TRUE,FALSE,fighting_fighting,4,3,WHEN PLAYED,WHEN_PLAYED,0.7,../templates/pokemon.html,../templates/pokemon_back.html
+Meowth,All players gain 1 {{ANY}},052,FGW,TRUE,TRUE,TRUE,any_any,2,5,WHEN ACTIVATED,WHEN_ACTIVATED,0.4,../templates/pokemon.html,../templates/pokemon_back.html
+Persian,Draw 2 {{POKÉMON}},053,FGW,TRUE,TRUE,TRUE,any_any_any,2,7,WHEN PLAYED,WHEN_PLAYED,1,../templates/pokemon.html,../templates/pokemon_back.html
+Psyduck,Gain 1 {{PSYCHIC}} or draw 1 {{POKÉMON}},054,W,FALSE,FALSE,TRUE,water__psychic,4,1,WHEN ACTIVATED,WHEN_ACTIVATED,0.8,../templates/pokemon.html,../templates/pokemon_back.html
+Golduck,"You may put 1 {{POKÉMON}} from your hand below this Pokémon, if you do draw 1 {{POKÉMON}}",055,W,FALSE,FALSE,TRUE,water_water_psychic,6,3,WHEN ACTIVATED,WHEN_ACTIVATED,1.7,../templates/pokemon.html,../templates/pokemon_back.html
+Mankey,Draw all {{FIGHTING}} from the stadium,056,F,TRUE,FALSE,FALSE,fighting,3,2,WHEN PLAYED,WHEN_PLAYED,0.5,../templates/pokemon.html,../templates/pokemon_back.html
+Primeape,Gain 1 {{ANY}},057,F,TRUE,FALSE,FALSE,fighting_fighting,2,4,WHEN ACTIVATED,WHEN_ACTIVATED,1,../templates/pokemon.html,../templates/pokemon_back.html
+Growlithe,Put 1 {{FIRE}} on this pokémon,058,G,FALSE,TRUE,FALSE,fire,3,2,WHEN ACTIVATED,WHEN_ACTIVATED,0.7,../templates/pokemon.html,../templates/pokemon_back.html
+Arcanine,Put 1 {{POKÉBALL}} on a {{FIRE}} Pokémon,059,G,FALSE,TRUE,FALSE,fire_fire,4,3,WHEN ACTIVATED,WHEN_ACTIVATED,1.9,../templates/pokemon.html,../templates/pokemon_back.html
+Poliwag,Put 1 {{WATER}} on this pokémon,060,W,FALSE,FALSE,TRUE,water,3,2,WHEN ACTIVATED,WHEN_ACTIVATED,0.6,../templates/pokemon.html,../templates/pokemon_back.html
+Poliwhirl,Discard 1 {{POKÉBALL}} gain 1 {{ANY}},061,W,FALSE,FALSE,TRUE,water_water,4,3,WHEN ACTIVATED,WHEN_ACTIVATED,1,../templates/pokemon.html,../templates/pokemon_back.html
+Poliwrath,"Draw 1 {{POKÉMON}} from the deck, if height is < 1.3, place {{POKÉMON}} below this Pokémon",062,W,FALSE,FALSE,TRUE,water_water_fighting,2,4,WHEN ACTIVATED,WHEN_ACTIVATED,1.3,../templates/pokemon.html,../templates/pokemon_back.html
+Abra,If this is the rightmost card. You may teleport this Pokémon to another area,063,FGW,TRUE,TRUE,TRUE,psychic,1,4,WHEN ACTIVATED,WHEN_ACTIVATED,0.9,../templates/pokemon.html,../templates/pokemon_back.html
+Kadabra,Draw all {{PSYCHIC}} from the stadium,064,FGW,TRUE,TRUE,TRUE,psychic_psychic,2,5,WHEN PLAYED,WHEN_PLAYED,1.3,../templates/pokemon.html,../templates/pokemon_back.html
+Alakazam,"Draw 1 {{POKÉMON}} from the deck, if height is < 1.5, place {{POKÉMON}} below this Pokémon",065,FGW,TRUE,TRUE,TRUE,psychic_psychic_lightning,0,6,WHEN ACTIVATED,WHEN_ACTIVATED,1.5,../templates/pokemon.html,../templates/pokemon_back.html
+Machop,Play an additional {fightning} pokémon,066,FGW,TRUE,TRUE,TRUE,fighting,4,3,WHEN PLAYED,WHEN_PLAYED,0.8,../templates/pokemon.html,../templates/pokemon_back.html
+Machoke,Put 1 {{FIGHTING}} on this pokémon,067,FGW,TRUE,TRUE,TRUE,fighting_fighting,3,2,WHEN ACTIVATED,WHEN_ACTIVATED,1.5,../templates/pokemon.html,../templates/pokemon_back.html
+Machamp,"Draw 1 {{POKÉMON}} from the deck, if height is < 2.0, place {{POKÉMON}} below this Pokémon",068,FGW,TRUE,TRUE,TRUE,fighting_fighting_fighting,2,3,WHEN ACTIVATED,WHEN_ACTIVATED,1.6,../templates/pokemon.html,../templates/pokemon_back.html
+Bellsprout,Draw all {{GRASS}} from the stadium,069,F,TRUE,FALSE,FALSE,grass,5,2,WHEN PLAYED,WHEN_PLAYED,0.7,../templates/pokemon.html,../templates/pokemon_back.html
+Weepinbell,Put 1 {{GRASS}} on this pokémon,070,F,TRUE,FALSE,FALSE,grass_grass,3,2,WHEN ACTIVATED,WHEN_ACTIVATED,1,../templates/pokemon.html,../templates/pokemon_back.html
+Victreebel,Put 1 {{POKÉBALL}} on a {{GRASS}} Pokémon,071,F,TRUE,FALSE,FALSE,grass_grass_grass,4,3,WHEN ACTIVATED,WHEN_ACTIVATED,1.7,../templates/pokemon.html,../templates/pokemon_back.html
+Tentacool,Play an additional {{WATER}} pokémon,072,W,FALSE,FALSE,TRUE,water,4,3,WHEN PLAYED,WHEN_PLAYED,0.9,../templates/pokemon.html,../templates/pokemon_back.html
+Tentacruel,"You may put 1 {{POKÉMON}} from your hand below this Pokémon, gain 1 {{WATER}}",073,W,FALSE,FALSE,TRUE,water_water,2,3,WHEN ACTIVATED,WHEN_ACTIVATED,1.6,../templates/pokemon.html,../templates/pokemon_back.html
+Geodude,Play an additional {fightning} pokémon,074,FG,TRUE,TRUE,FALSE,fighting,3,3,WHEN PLAYED,WHEN_PLAYED,0.4,../templates/pokemon.html,../templates/pokemon_back.html
+Graveler,"Draw 1 {{POKÉMON}} from the deck, if height is < 1.1, place {{POKÉMON}} below this Pokémon",075,FG,TRUE,TRUE,FALSE,fighting_fighting,4,2,WHEN ACTIVATED,WHEN_ACTIVATED,1,../templates/pokemon.html,../templates/pokemon_back.html
+Golem,Player(s) with the fewest Pokémon draw 1 {{POKÉMON}},076,FG,TRUE,TRUE,FALSE,fighting_fighting_fire,5,5,WHEN ACTIVATED,WHEN_ACTIVATED,1.4,../templates/pokemon.html,../templates/pokemon_back.html
+Ponyta,Play an additional {{FIRE}} pokémon,077,G,FALSE,TRUE,FALSE,fire,4,2,WHEN PLAYED,WHEN_PLAYED,1,../templates/pokemon.html,../templates/pokemon_back.html
+Rapidash,Draw all {{FIRE}} from the stadium,078,G,FALSE,TRUE,FALSE,fire_fire,2,5,WHEN PLAYED,WHEN_PLAYED,1.7,../templates/pokemon.html,../templates/pokemon_back.html
+Slowpoke,Draw 1 {{POKÉMON}},079,W,FALSE,FALSE,TRUE,psychic,5,1,WHEN ACTIVATED,WHEN_ACTIVATED,1.2,../templates/pokemon.html,../templates/pokemon_back.html
+Slowbro,Put 1 {{PSYCHIC}} on this pokémon,080,W,FALSE,FALSE,TRUE,psychic_psychic,6,2,WHEN ACTIVATED,WHEN_ACTIVATED,1.6,../templates/pokemon.html,../templates/pokemon_back.html
+Magnemite,Put 1 {{LIGHTNING}} on this pokémon,081,FG,TRUE,TRUE,FALSE,lightning,3,1,WHEN ACTIVATED,WHEN_ACTIVATED,0.3,../templates/pokemon.html,../templates/pokemon_back.html
+Magneton,Draw all {{LIGHTNING}} from the stadium,082,FG,TRUE,TRUE,FALSE,lightning_lightning,3,5,WHEN PLAYED,WHEN_PLAYED,1,../templates/pokemon.html,../templates/pokemon_back.html
+Farfetch'd,Put 1 {{ANY}} on this pokémon,083,FW,TRUE,FALSE,TRUE,any,4,1,WHEN ACTIVATED,WHEN_ACTIVATED,0.8,../templates/pokemon.html,../templates/pokemon_back.html
+Doduo,If this is the rightmost card. You may move this Pokémon to another area,084,GW,FALSE,TRUE,TRUE,any_any,2,4,WHEN ACTIVATED,WHEN_ACTIVATED,1.4,../templates/pokemon.html,../templates/pokemon_back.html
+Dodrio,Roll all {{DICE}} and choose 2 to gain,085,GW,FALSE,TRUE,TRUE,any_any_any,3,2,WHEN ACTIVATED,WHEN_ACTIVATED,1.8,../templates/pokemon.html,../templates/pokemon_back.html
+Seel,Discard 1 {{POKÉBALL}} draw 2 {{POKÉMON}},086,W,FALSE,FALSE,TRUE,water,2,2,WHEN ACTIVATED,WHEN_ACTIVATED,1.1,../templates/pokemon.html,../templates/pokemon_back.html
+Dewgong,Put 1 {{POKÉMON}} from your hand under this pokémon to gain 1 {{WATER}},087,W,FALSE,FALSE,TRUE,water_water,3,2,WHEN ACTIVATED,WHEN_ACTIVATED,1.7,../templates/pokemon.html,../templates/pokemon_back.html
+Grimer,Discard 1 {{POKÉBALL}} draw 2 {{POKÉMON}},088,W,FALSE,FALSE,TRUE,grass_any,2,3,WHEN ACTIVATED,WHEN_ACTIVATED,0.9,../templates/pokemon.html,../templates/pokemon_back.html
+Muk,Gain 1 {{GRASS}} or 1 draw 1 {{POKÉMON}},089,W,FALSE,FALSE,TRUE,grass_any_any,3,4,WHEN ACTIVATED,WHEN_ACTIVATED,1.2,../templates/pokemon.html,../templates/pokemon_back.html
+Shellder,When another player plays a Pokémon in {{WETLANDS}} draw 1 {{POKÉMON}},090,W,FALSE,FALSE,TRUE,water,1,3,BETWEEN TURNS,BETWEEN_TURNS,0.3,../templates/pokemon.html,../templates/pokemon_back.html
+Cloyster,"Roll all {{DICE}}, if at least 1 {{WATER}} gain 1 {{WATER}}",091,W,FALSE,FALSE,TRUE,water_water,2,5,WHEN ACTIVATED,WHEN_ACTIVATED,1.5,../templates/pokemon.html,../templates/pokemon_back.html
+Gastly,Put 1 {{POKÉBALL}} on a {{PSYCHIC}} Pokémon,092,F,TRUE,FALSE,FALSE,psychic_any,2,6,WHEN ACTIVATED,WHEN_ACTIVATED,1.3,../templates/pokemon.html,../templates/pokemon_back.html
+Haunter,"You may put 1 {{POKÉMON}} from your hand below this Pokémon, gain 1 {{PSYCHIC}}",093,F,TRUE,FALSE,FALSE,psychic_psychic_any,4,5,WHEN ACTIVATED,WHEN_ACTIVATED,1.6,../templates/pokemon.html,../templates/pokemon_back.html
+Gengar,Put 1 {{PSYCHIC}} on this pokémon,094,F,TRUE,FALSE,FALSE,psychic_psychic_any_any,6,4,WHEN ACTIVATED,WHEN_ACTIVATED,1.5,../templates/pokemon.html,../templates/pokemon_back.html
+Onix,Draw 1 {{POKÉMON}},095,G,FALSE,TRUE,FALSE,fighting_fighting,0,7,WHEN ACTIVATED,WHEN_ACTIVATED,8.8,../templates/pokemon.html,../templates/pokemon_back.html
+Drowzee,Play an additional {{PSYCHIC}} pokémon,096,FGW,TRUE,TRUE,TRUE,psychic_any,2,3,WHEN PLAYED,WHEN_PLAYED,1,../templates/pokemon.html,../templates/pokemon_back.html
+Hypno,You may put 1 {{POKÉMON}} from your hand below this Pokémon and 1 {{POKÉBALL}} on this Pokémon,097,FGW,TRUE,TRUE,TRUE,psychic_psychic_any,4,3,WHEN ACTIVATED,WHEN_ACTIVATED,1.6,../templates/pokemon.html,../templates/pokemon_back.html
+Krabby,Players with fewest Pokémon in {{WETLANDS}} draw 1 {{POKÉMON}},098,W,FALSE,FALSE,TRUE,water,2,4,WHEN ACTIVATED,WHEN_ACTIVATED,0.4,../templates/pokemon.html,../templates/pokemon_back.html
+Kingler,When another player plays a Pokémon in {{WETLANDS}} draw 1 {{POKÉMON}},099,W,FALSE,FALSE,TRUE,water_water,2,6,BETWEEN TURNS,BETWEEN_TURNS,1.3,../templates/pokemon.html,../templates/pokemon_back.html
+Voltorb,Put 1 {{POKÉBALL}} on any Pokémon,100,FG,TRUE,TRUE,FALSE,lightning_any,5,3,WHEN ACTIVATED,WHEN_ACTIVATED,0.5,../templates/pokemon.html,../templates/pokemon_back.html
+Electrode,Spend 1 {{LIGHTNING}} to gain 2 {{POKÉBALL}},101,FG,TRUE,TRUE,FALSE,lightning_lightning_any,6,4,WHEN ACTIVATED,WHEN_ACTIVATED,1.2,../templates/pokemon.html,../templates/pokemon_back.html
+Exeggcute,Draw 2 {{POKÉMON}},102,FGW,TRUE,TRUE,TRUE,grass_any,4,5,WHEN PLAYED,WHEN_PLAYED,0.4,../templates/pokemon.html,../templates/pokemon_back.html
+Exeggutor,"Draw 1 {{POKÉMON}} from the deck, if height is < 1.3, place {{POKÉMON}} below this Pokémon",103,FGW,TRUE,TRUE,TRUE,grass_grass_any,5,3,WHEN ACTIVATED,WHEN_ACTIVATED,2,../templates/pokemon.html,../templates/pokemon_back.html
+Cubone,Draw 2 {{POKÉDEX}} and keep 1.,104,G,FALSE,TRUE,FALSE,fighting,4,3,WHEN PLAYED,WHEN_PLAYED,0.4,../templates/pokemon.html,../templates/pokemon_back.html
+Marowak,"You may put 1 {{POKÉMON}} from your hand below this Pokémon, gain 1 {{FIGHTING}}",105,G,FALSE,TRUE,FALSE,fighting_fighting,3,3,WHEN ACTIVATED,WHEN_ACTIVATED,1,../templates/pokemon.html,../templates/pokemon_back.html
+Hitmonlee,Discard 1 {{FIGHTING}} to put 2 {{POKÉMON}} under this one,106,FGW,TRUE,TRUE,TRUE,fighting_fighting,3,1,WHEN ACTIVATED,WHEN_ACTIVATED,1.5,../templates/pokemon.html,../templates/pokemon_back.html
+Hitmonchan,Discard 1 {{FIGHTING}} to put 2 {{POKÉMON}} under this one,107,FGW,TRUE,TRUE,TRUE,fighting_fighting,3,1,WHEN ACTIVATED,WHEN_ACTIVATED,1.4,../templates/pokemon.html,../templates/pokemon_back.html
+Lickitung,Lick another player. Then steal 1 {{ANY}} from them.,108,FW,TRUE,FALSE,TRUE,any_any_any,3,5,WHEN ACTIVATED,WHEN_ACTIVATED,1.2,../templates/pokemon.html,../templates/pokemon_back.html
+Koffing,Play an additional pokémon in your {{GRASSLANDS}},109,G,FALSE,TRUE,FALSE,grass_any,4,3,WHEN PLAYED,WHEN_PLAYED,0.6,../templates/pokemon.html,../templates/pokemon_back.html
+Weezing,Self-destruct. Remove all {{POKÉBALL}} from other players then remove this pokémon.,110,G,FALSE,TRUE,FALSE,grass_grass_fire,5,2,BETWEEN TURNS,BETWEEN_TURNS,1.2,../templates/pokemon.html,../templates/pokemon_back.html
+Rhyhorn,Put 2 {{POKÉBALL}} on this Pokémon,111,G,FALSE,TRUE,FALSE,fighting_grass_any,6,2,WHEN ACTIVATED,WHEN_ACTIVATED,1,../templates/pokemon.html,../templates/pokemon_back.html
+Rhydon,Discard 1 {{POKÉBALL}} gain 1 {{ANY}},112,G,FALSE,TRUE,FALSE,fighting_lightning_any_any,6,4,WHEN ACTIVATED,WHEN_ACTIVATED,1.9,../templates/pokemon.html,../templates/pokemon_back.html
+Chansey,Roll all {{DICE}} and gain the result,113,FW,TRUE,FALSE,TRUE,any_any_any,1,8,WHEN PLAYED,WHEN_PLAYED,1.1,../templates/pokemon.html,../templates/pokemon_back.html
+Tangela,"You may put 1 {{POKÉMON}} from your hand below this Pokémon, gain 1 {{GRASS}}",114,FW,TRUE,FALSE,TRUE,grass_any,6,1,WHEN ACTIVATED,WHEN_ACTIVATED,1,../templates/pokemon.html,../templates/pokemon_back.html
+Kangaskhan,Roll all {{DICE}}. Gain {{ANY}} as eggs (place anywhere),115,FG,TRUE,TRUE,FALSE,any_any_any_any,6,6,WHEN ACTIVATED,WHEN_ACTIVATED,2.2,../templates/pokemon.html,../templates/pokemon_back.html
+Horsea,Put 1 {{POKÉBALL}} on a {{WATER}} Pokémon,116,W,FALSE,FALSE,TRUE,water,4,3,WHEN ACTIVATED,WHEN_ACTIVATED,0.4,../templates/pokemon.html,../templates/pokemon_back.html
+Seadra,Put 1 {{WATER}} on this pokémon,117,W,FALSE,FALSE,TRUE,water_water,6,1,WHEN ACTIVATED,WHEN_ACTIVATED,1.2,../templates/pokemon.html,../templates/pokemon_back.html
+Goldeen,Draw 1 {{POKÉMON}},118,W,FALSE,FALSE,TRUE,water,5,3,WHEN ACTIVATED,WHEN_ACTIVATED,0.6,../templates/pokemon.html,../templates/pokemon_back.html
+Seaking,"You may put 1 {{POKÉMON}} from your hand below this Pokémon, gain 1 {{WATER}}",119,W,FALSE,FALSE,TRUE,water_lightning,5,3,WHEN ACTIVATED,WHEN_ACTIVATED,1.3,../templates/pokemon.html,../templates/pokemon_back.html
+Staryu,Play an additional {{WATER}} pokémon,120,W,FALSE,FALSE,TRUE,water,6,3,WHEN PLAYED,WHEN_PLAYED,0.8,../templates/pokemon.html,../templates/pokemon_back.html
+Starmie,Draw all {{WATER}} from the stadium,121,W,FALSE,FALSE,TRUE,water_water,3,6,WHEN PLAYED,WHEN_PLAYED,1.1,../templates/pokemon.html,../templates/pokemon_back.html
+Mr. Mime,Imitate the effect of another Pokémon in play,122,FGW,TRUE,TRUE,TRUE,psychic_psychic,2,4,WHEN ACTIVATED,WHEN_ACTIVATED,1.3,../templates/pokemon.html,../templates/pokemon_back.html
+Scyther,Put 1 {{GRASS}} on this pokémon,123,FG,TRUE,TRUE,FALSE,grass_grass_any,3,5,WHEN ACTIVATED,WHEN_ACTIVATED,1.5,../templates/pokemon.html,../templates/pokemon_back.html
+Jynx,Put 1 {{PSYCHIC}} on this pokémon,124,FGW,TRUE,TRUE,TRUE,psychic_psychic,4,1,WHEN ACTIVATED,WHEN_ACTIVATED,1.4,../templates/pokemon.html,../templates/pokemon_back.html
+Electabuzz,Gain 1 {{LIGHTNING}} or draw 1 {{POKÉMON}},125,G,FALSE,TRUE,FALSE,lightning_lightning,1,6,WHEN ACTIVATED,WHEN_ACTIVATED,1.1,../templates/pokemon.html,../templates/pokemon_back.html
+Magmar,"You may put 1 {{POKÉMON}} from your hand below this Pokémon, gain 1 {{FIRE}}",126,FG,TRUE,TRUE,FALSE,fire_fire,1,6,WHEN ACTIVATED,WHEN_ACTIVATED,1.3,../templates/pokemon.html,../templates/pokemon_back.html
+Pinsir,"Draw 1 {{POKÉMON}} from the deck, if height is < 0.7, place {{POKÉMON}} below this Pokémon",127,FG,TRUE,TRUE,FALSE,grass_any,1,4,WHEN ACTIVATED,WHEN_ACTIVATED,1.5,../templates/pokemon.html,../templates/pokemon_back.html
+Tauros,Discard 1 {{POKÉBALL}} draw 2 {{POKÉMON}},128,G,FALSE,TRUE,FALSE,any_any_any,2,4,WHEN ACTIVATED,WHEN_ACTIVATED,1.4,../templates/pokemon.html,../templates/pokemon_back.html
+Magikarp,Draw all {{WATER}} from the stadium,129,W,FALSE,FALSE,TRUE,water,6,0,WHEN PLAYED,WHEN_PLAYED,0.9,../templates/pokemon.html,../templates/pokemon_back.html
+Gyarados,"Draw 1 {{POKÉMON}} from the deck, if height is < 2.5, place {{POKÉMON}} below this Pokémon",130,W,FALSE,FALSE,TRUE,water_water_any,1,5,WHEN ACTIVATED,WHEN_ACTIVATED,6.5,../templates/pokemon.html,../templates/pokemon_back.html
+Lapras,Move up to 2 {{POKÉBALL}} between your Pokémon,131,W,FALSE,FALSE,TRUE,water_water,2,7,WHEN ACTIVATED,WHEN_ACTIVATED,2.5,../templates/pokemon.html,../templates/pokemon_back.html
+Ditto,Imitate the effect of another Pokémon in play,132,FGW,TRUE,TRUE,TRUE,,1,3,WHEN ACTIVATED,WHEN_ACTIVATED,0.3,../templates/pokemon.html,../templates/pokemon_back.html
+Eevee,Draw 2 {{POKÉDEX}} and keep 1.,133,G,FALSE,TRUE,FALSE,any,2,3,WHEN PLAYED,WHEN_PLAYED,0.3,../templates/pokemon.html,../templates/pokemon_back.html
+Vaporeon,Fill this pokémon with {{POKÉBALL}},134,W,FALSE,FALSE,TRUE,water_any,6,3,WHEN PLAYED,WHEN_PLAYED,1,../templates/pokemon.html,../templates/pokemon_back.html
+Jolteon,"You may put 1 {{POKÉMON}} from your hand below this Pokémon, gain 1 {{LIGHTNING}}",135,FG,TRUE,TRUE,FALSE,lightning_any,4,3,WHEN ACTIVATED,WHEN_ACTIVATED,0.8,../templates/pokemon.html,../templates/pokemon_back.html
+Flareon,Put 1 {{POKÉBALL}} on a {{FIRE}} Pokémon,136,FG,TRUE,TRUE,FALSE,fire_any,4,3,WHEN ACTIVATED,WHEN_ACTIVATED,0.9,../templates/pokemon.html,../templates/pokemon_back.html
+Porygon,Draw 2 {{POKÉDEX}} and keep 1.,137,FGW,TRUE,TRUE,TRUE,any_any,3,4,WHEN PLAYED,WHEN_PLAYED,0.8,../templates/pokemon.html,../templates/pokemon_back.html
+Omanyte,If a {{DICE}} lands on {{WATER}} gain 1 {{WATER}},138,W,FALSE,FALSE,TRUE,water,2,4,BETWEEN TURNS,BETWEEN_TURNS,0.4,../templates/pokemon.html,../templates/pokemon_back.html
+Omastar,Draw 1 {{POKÉMON}},139,W,FALSE,FALSE,TRUE,water_water,3,5,WHEN ACTIVATED,WHEN_ACTIVATED,1,../templates/pokemon.html,../templates/pokemon_back.html
+Kabuto,Gain 1 {{FIGHTING}} or draw 1 {{POKÉMON}},140,FW,TRUE,FALSE,TRUE,fighting_any,2,5,WHEN ACTIVATED,WHEN_ACTIVATED,0.5,../templates/pokemon.html,../templates/pokemon_back.html
+Kabutops,Gain 1 {{WATER}} or draw 1 {{POKÉMON}},141,FW,TRUE,FALSE,TRUE,fighting_fighting_any,1,6,WHEN ACTIVATED,WHEN_ACTIVATED,1.3,../templates/pokemon.html,../templates/pokemon_back.html
+Aerodactyl,"Draw 1 {{POKÉMON}} from the deck, if height is < 1.1, place {{POKÉMON}} below this Pokémon",142,FGW,TRUE,TRUE,TRUE,fighting_fighting,4,2,WHEN ACTIVATED,WHEN_ACTIVATED,1.8,../templates/pokemon.html,../templates/pokemon_back.html
+Snorlax,,143,FGW,TRUE,TRUE,TRUE,any_any_any_any,3,9,,,2.1,../templates/pokemon.html,../templates/pokemon_back.html
+Articuno,Allows exchange between {{POKÉBALL}} and {{WATER}},144,FGW,TRUE,TRUE,TRUE,water_water_water,1,9,POKÉMON POWER,POKÉMON_POWER,1.7,../templates/pokemon.html,../templates/pokemon_back.html
+Zapdos,Allows exchange between {{POKÉBALL}} and {{LIGHTNING}},145,FGW,TRUE,TRUE,TRUE,lightning_lightning_lightning,1,9,POKÉMON POWER,POKÉMON_POWER,1.6,../templates/pokemon.html,../templates/pokemon_back.html
+Moltres,Allows exchange between {{POKÉBALL}} and {{FIRE}},146,FG,TRUE,TRUE,FALSE,fire_fire_fire,2,9,POKÉMON POWER,POKÉMON_POWER,2,../templates/pokemon.html,../templates/pokemon_back.html
+Dratini,Play an additional pokémon in your {{WETLANDS}},147,W,FALSE,FALSE,TRUE,any,2,5,WHEN PLAYED,WHEN_PLAYED,1.8,../templates/pokemon.html,../templates/pokemon_back.html
+Dragonair,Draw 2 {{POKÉDEX}} and keep 1.,148,W,FALSE,FALSE,TRUE,water_lightning,3,6,WHEN PLAYED,WHEN_PLAYED,4,../templates/pokemon.html,../templates/pokemon_back.html
+Dragonite,,149,FGW,TRUE,TRUE,TRUE,water_lightning_fire,4,7,,,2.2,../templates/pokemon.html,../templates/pokemon_back.html
+Mewtwo,Steal 1 {{ANY}} from any pokémon and place on Mewtwo,150,FGW,TRUE,TRUE,TRUE,psychic_psychic_psychic,0,8,WHEN ACTIVATED,WHEN_ACTIVATED,2,../templates/pokemon.html,../templates/pokemon_back.html
+Mew,All your pokémon are immune to stealing,151,FGW,TRUE,TRUE,TRUE,psychic_psychic_any,2,9,POKÉMON POWER,POKÉMON_POWER,0.4,../templates/pokemon.html,../templates/pokemon_back.html
+Elemental,Different Pokémon types,3 to 4,4,5+,7,,,,,,,,../templates/pokedex.html,../templates/pokedex_back.html
+Ash Ketchum,Pokémon worth <4 points,4 to 6,3,7+,6,,,,,,,,../templates/pokedex.html,../templates/pokedex_back.html
+Viridian Forest,Pokémon that can only live in {{FOREST}},2 to 3,3,4+,8,,,,,,,,../templates/pokedex.html,../templates/pokedex_back.html
+Snoop,Pokémon that can only live in {{GRASSLANDS}},2 to 3,3,4+,8,,,,,,,,../templates/pokedex.html,../templates/pokedex_back.html
+Soggy feet,Pokémon that can only live in {{WETLANDS}},2 to 3,3,4+,8,,,,,,,,../templates/pokedex.html,../templates/pokedex_back.html
+Size Matters,Pokémon >1.5m,4 to 5,3,6+,6,,,,,,,,../templates/pokedex.html,../templates/pokedex_back.html
+Ballsy,Pokémon with at least 1 {{POKÉBALL}},6 to 8,3,9+,6,,,,,,,,../templates/pokedex.html,../templates/pokedex_back.html
+Normality,Pokémon using {{ANY}},3 to 5,2,6+,6,,,,,,,,../templates/pokedex.html,../templates/pokedex_back.html
+Electric!,{{LIGHTNING}} Pokémon,1 to 3,3,4+,7,,,,,,,,../templates/pokedex.html,../templates/pokedex_back.html
+Hot!,{{FIRE}} Pokémon,1 to 3,3,4+,7,,,,,,,,../templates/pokedex.html,../templates/pokedex_back.html
+Hippie,{{GRASS}} Pokémon,2 to 3,3,4+,7,,,,,,,,../templates/pokedex.html,../templates/pokedex_back.html
+Mental,{{PSYCHIC}} Pokémon,1 to 3,3,4+,7,,,,,,,,../templates/pokedex.html,../templates/pokedex_back.html
+Bully,{{FIGHTING}} Pokémon,2 to 3,4,4+,7,,,,,,,,../templates/pokedex.html,../templates/pokedex_back.html
+Slippery,{{WATER}} Pokémon,2 to 3,3,4+,7,,,,,,,,../templates/pokedex.html,../templates/pokedex_back.html
+Lonely,Pokémon in your area with the fewest pokémon,,3,,,,,,,,,,../templates/pokedex_alt.html,../templates/pokedex_back.html
+Even tempered,Odd-numbered Pokémon,,2,,,,,,,,,,../templates/pokedex_alt.html,../templates/pokedex_back.html
+Odd one out,Even-numbered Pokémon,,2,,,,,,,,,,../templates/pokedex_alt.html,../templates/pokedex_back.html
+Energetic,Pokémon that require multiple energy types to play,2 to 4,4,5+,8,,,,,,,,../templates/pokedex.html,../templates/pokedex_back.html
+Petting Zoo,Pokémon <1.0m,3 to 5,3,6+,6,,,,,,,,../templates/pokedex.html,../templates/pokedex_back.html
+Gotta Catch 'Em All,Pokémon with 4+ Pokéballs,,1,,,,,,,,,,../templates/pokedex_alt.html,../templates/pokedex_back.html
