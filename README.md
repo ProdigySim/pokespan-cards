@@ -13,6 +13,6 @@ to re-generate cards.
 
 or
 ```
-cards make "data/pokemon.csv" -d defs.csv -o "Pokemon" --card-size=standard_small
+cards make "data/pokemon.csv" -d defs.csv -o "Pokemon" --card-size=standard_mini
 ```
 to change parameters like output folder, csv-file or card size
