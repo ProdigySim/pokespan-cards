@@ -27,10 +27,10 @@ Pikachu,"Draw 1 {{POKÉMON}}, put below Pikachu if {{WATER}} pokémon",025,F,TRU
 Raichu,Put 1 {{LIGHTNING}} on this pokémon,026,F,TRUE,FALSE,FALSE,lightning_lightning,2,4,WHEN ACTIVATED,WHEN_ACTIVATED,0.8,../templates/pokemon.html
 Sandshrew,Play an additional pokémon in your {{GRASSLANDS}},027,G,FALSE,TRUE,FALSE,fighting,3,3,WHEN PLAYED,WHEN_PLAYED,0.6,../templates/pokemon.html
 Sandslash,Put 1 {{FIGHTING}} on this pokémon,028,G,FALSE,TRUE,FALSE,fighting_fighting,4,2,WHEN ACTIVATED,WHEN_ACTIVATED,1,../templates/pokemon.html
-Nidoran (f),Play an additional pokémon in your {{FOREST}},029,F,TRUE,FALSE,FALSE,grass,4,2,WHEN PLAYED,WHEN_PLAYED,0.4,../templates/pokemon.html
+Nidoran ♀,Play an additional pokémon in your {{FOREST}},029,F,TRUE,FALSE,FALSE,grass,4,2,WHEN PLAYED,WHEN_PLAYED,0.4,../templates/pokemon.html
 Nidorina,Play an additional {{GRASS}} pokémon,030,F,TRUE,FALSE,FALSE,grass_grass,5,3,WHEN PLAYED,WHEN_PLAYED,0.8,../templates/pokemon.html
 Nidoqueen,Put 2 {{POKÉBALL}} on Nidoqueen,031,F,TRUE,FALSE,FALSE,grass_grass_psychic,6,3,WHEN ACTIVATED,WHEN_ACTIVATED,1.3,../templates/pokemon.html
-Nidoran (m),Play an additional pokémon in your {{FOREST}},032,F,TRUE,FALSE,FALSE,grass,2,4,WHEN PLAYED,WHEN_PLAYED,0.5,../templates/pokemon.html
+Nidoran ♂,Play an additional pokémon in your {{FOREST}},032,F,TRUE,FALSE,FALSE,grass,2,4,WHEN PLAYED,WHEN_PLAYED,0.5,../templates/pokemon.html
 Nidorino,Play an additional {{GRASS}} pokémon,033,F,TRUE,FALSE,FALSE,grass_grass,3,3,WHEN PLAYED,WHEN_PLAYED,0.9,../templates/pokemon.html
 Nidoking,"You may put 1 {{POKÉMON}} from your hand below this Pokémon, if you do draw 1 {{POKÉMON}}",034,F,TRUE,FALSE,FALSE,grass_grass_fighting,4,3,WHEN ACTIVATED,WHEN_ACTIVATED,1.4,../templates/pokemon.html
 Clefairy,"When another players Buys Pokéballs, gain 1 {{POKÉBALL}}",035,GW,FALSE,TRUE,TRUE,any_any,5,2,BETWEEN TURNS,BETWEEN_TURNS,0.6,../templates/pokemon.html
