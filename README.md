@@ -16,3 +16,5 @@ or
 cards make "data/pokemon.csv" -d defs.csv -o "Pokemon" --card-size=standard_mini
 ```
 to change parameters like output folder, csv-file or card size
+
+Open `Pokemon/generated/index.html` to view and print your generated cards
