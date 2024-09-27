@@ -98,6 +98,12 @@
             padding-top: .4em;
             padding-bottom: .4em;
         }
+        .Kangaskhan, .Aerodactyl {
+            font-size: 1.3em;
+        }
+        .Kangaskhan-img, .Gyarados-img, .Aerodactyl-img, .Exeggutor-img, .Hypno-img, .Cloyster-img, .Golbat-img, .Fearow-img{
+            top:5mm;
+        }
     </style>
     <div class="layers">
         {{BACKGROUND}}
@@ -105,9 +111,9 @@
         <img src="res/balls-{{balls}}.png">
         {{c_{{energy}}}}
     </div>
-    <h1>{{ title }}</h1>
+    <h1 class="{{title}}">{{ title }}</h1>
     <h2>#{{no}}</h2>
-    <img src="res/{{no}}.png" class="pokemon-portrait">
+    <img src="res/{{no}}.png" class="pokemon-portrait {{title}}-img">
     <div class="card-txt {{effector_class}}">{{ effector }} : {{ text }}</div>
     <p class="height">{{ height }}m</p>
     <p class="points">{{ points }}</p>
