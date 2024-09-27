@@ -124,6 +124,318 @@
                 top:5mm;
             }
         </style>
+    <style>
+            @import url('https://fonts.cdnfonts.com/css/cardenio-modern');
+            @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+            h1 {
+                font-family: 'Cardenio Modern', sans-serif;
+                font-size:1.5em;
+                margin-bottom:0em;
+                padding-left:5%;
+                padding-right:5%;
+            }
+            h2 {
+                font-family: 'Cardenio Modern', sans-serif;
+                margin:0em;
+                font-size:0.6em;
+                font-weight:400;
+                opacity: 0.8;
+            }
+            .layers {
+                height: 100%;
+                width: 100%;
+                top: 0;
+                left: 0;
+                position: absolute;
+                z-index:-1;
+            }
+            .layers img {
+                width: 100%;
+                height: 100%;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 100% 100%;
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+            .card {
+                width: 41mm;
+                height: 63mm;
+                margin-bottom: 2mm;
+            }
+            .card-txt {
+                font-family: 'Cardenio Modern', sans-serif;
+                font-size:.8em;
+                padding:8%;
+                bottom: 12.5mm;
+                position: absolute;
+            }
+            .card-txt img {
+                margin-bottom: -6px;
+                height: 20px;
+            }
+            .pokemon-portrait {
+                width:80%;
+                transform: translateX(-50%);
+                height: auto;
+                top: 7mm;
+                position: absolute;
+                image-rendering: pixelated; /* Ensures the image stays sharp */
+                image-rendering: crisp-edges; /* Fallback for older browsers */
+                image-rendering: -moz-crisp-edges; /* Firefox */
+                image-rendering: -webkit-optimize-contrast;
+                z-index: 5;
+            }
+            .pokedex-title {
+                font-family: "Silkscreen", sans-serif;
+                font-weight: 400;
+                font-size: 0.8em;
+                top: 1mm;
+                margin-top: 5mm;
+            }
+            .pokedex-txt {
+                top: 15.5mm;
+                width: 100%;
+                padding-left: 20%;
+                padding-right: 20%;
+            }
+            .Gotta, .Diversity {
+                font-size: 0.6em;
+                top: 1mm;
+                margin-top: 5.5mm;
+            }
+            .points {
+                font-family: "Silkscreen", sans-serif;
+                font-weight: 400;
+                position: absolute;
+                right: 1mm;
+                bottom: 1mm;
+                margin: 0;
+            }
+            .points-txt {
+                font-family: "Silkscreen", sans-serif;
+                font-weight: 400;
+                font-size: .6em;
+                margin: 0;
+            }
+            .height {
+                position: absolute;
+                right: 1mm;
+                bottom: 50%;
+                margin: 0;
+                font-size: .7em;
+                font-weight: 400;
+                font-family: "Silkscreen", sans-serif;
+                color: white;
+                transform: rotate(-90deg);
+            }
+            .WHEN_ACTIVATED {
+                background-color: rgba(0, 0, 0, 0.6);
+                color:white;
+                padding-top: .4em;
+                padding-bottom: .4em;
+            }
+            .BETWEEN_TURNS {
+                background-color: rgba(133, 62, 103, 0.6);
+                color:white;
+                padding-top: .4em;
+                padding-bottom: .4em;
+            }
+            .POKÉMON_POWER {
+                background-color: rgba(0, 98, 255, 0.6);
+                padding-top: .4em;
+                padding-bottom: .4em;
+            }
+            .Kangaskhan, .Aerodactyl {
+                font-size: 1.3em;
+            }
+            .Kangaskhan-img, .Gyarados-img, .Aerodactyl-img, .Exeggutor-img, .Hypno-img, .Cloyster-img, .Golbat-img, .Fearow-img{
+                top:5mm;
+            }
+            .reward-container{
+                position: absolute;
+                width: 100%;
+                bottom: 13mm;
+                display: flex;
+            }
+            .centerbox {
+                width: 80%;
+                display: flex;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .reward-left, .reward-right {
+                width:50%;
+            }
+            .reward-left {
+                border-right: dashed 2px black;
+            }
+            .reward-left p, .reward-right p {
+                font-size:.6em;
+                margin:0;
+            }
+            .reward {
+                font-size: 1.5em !important;
+                font-family: "Silkscreen", sans-serif;
+            }
+        </style>
+    <style>
+            @import url('https://fonts.cdnfonts.com/css/cardenio-modern');
+            @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+            h1 {
+                font-family: 'Cardenio Modern', sans-serif;
+                font-size:1.5em;
+                margin-bottom:0em;
+                padding-left:5%;
+                padding-right:5%;
+            }
+            h2 {
+                font-family: 'Cardenio Modern', sans-serif;
+                margin:0em;
+                font-size:0.6em;
+                font-weight:400;
+                opacity: 0.8;
+            }
+            .layers {
+                height: 100%;
+                width: 100%;
+                top: 0;
+                left: 0;
+                position: absolute;
+                z-index:-1;
+            }
+            .layers img {
+                width: 100%;
+                height: 100%;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 100% 100%;
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+            .card {
+                width: 41mm;
+                height: 63mm;
+                margin-bottom: 2mm;
+            }
+            .card-txt {
+                font-family: 'Cardenio Modern', sans-serif;
+                font-size:.8em;
+                padding:8%;
+                bottom: 12.5mm;
+                position: absolute;
+            }
+            .card-txt img {
+                margin-bottom: -6px;
+                height: 20px;
+            }
+            .pokemon-portrait {
+                width:80%;
+                transform: translateX(-50%);
+                height: auto;
+                top: 7mm;
+                position: absolute;
+                image-rendering: pixelated; /* Ensures the image stays sharp */
+                image-rendering: crisp-edges; /* Fallback for older browsers */
+                image-rendering: -moz-crisp-edges; /* Firefox */
+                image-rendering: -webkit-optimize-contrast;
+                z-index: 5;
+            }
+            .pokedex-title {
+                font-family: "Silkscreen", sans-serif;
+                font-weight: 400;
+                font-size: 0.8em;
+                top: 1mm;
+                margin-top: 5mm;
+            }
+            .pokedex-txt {
+                top: 15.5mm;
+                width: 100%;
+                padding-left: 20%;
+                padding-right: 20%;
+            }
+            .Gotta, .Diversity {
+                font-size: 0.6em;
+                top: 1mm;
+                margin-top: 5.5mm;
+            }
+            .points {
+                font-family: "Silkscreen", sans-serif;
+                font-weight: 400;
+                position: absolute;
+                right: 1mm;
+                bottom: 1mm;
+                margin: 0;
+            }
+            .points-txt {
+                font-family: "Silkscreen", sans-serif;
+                font-weight: 400;
+                font-size: .6em;
+                margin: 0;
+            }
+            .height {
+                position: absolute;
+                right: 1mm;
+                bottom: 50%;
+                margin: 0;
+                font-size: .7em;
+                font-weight: 400;
+                font-family: "Silkscreen", sans-serif;
+                color: white;
+                transform: rotate(-90deg);
+            }
+            .WHEN_ACTIVATED {
+                background-color: rgba(0, 0, 0, 0.6);
+                color:white;
+                padding-top: .4em;
+                padding-bottom: .4em;
+            }
+            .BETWEEN_TURNS {
+                background-color: rgba(133, 62, 103, 0.6);
+                color:white;
+                padding-top: .4em;
+                padding-bottom: .4em;
+            }
+            .POKÉMON_POWER {
+                background-color: rgba(0, 98, 255, 0.6);
+                padding-top: .4em;
+                padding-bottom: .4em;
+            }
+            .Kangaskhan, .Aerodactyl {
+                font-size: 1.3em;
+            }
+            .Kangaskhan-img, .Gyarados-img, .Aerodactyl-img, .Exeggutor-img, .Hypno-img, .Cloyster-img, .Golbat-img, .Fearow-img{
+                top:5mm;
+            }
+            .reward-container{
+                position: absolute;
+                width: 100%;
+                bottom: 10mm;
+                display: flex;
+            }
+            .reward-left, .reward-right {
+                width:50%;
+            }
+            .reward-left {
+                border-right: dashed 2px black;
+            }
+            .reward-left p, .reward-right p {
+                font-size:.6em;
+                margin:0;
+            }
+            .single {
+                display: block;
+            }
+            .single p {
+                font-family: "Silkscreen", sans-serif;
+                margin: 0;
+            }
+            .single .reward {
+                font-size: 2em;
+            }
+        </style>
   </head>
   <body>
     <div id="toolbar" class="ui-toolbar ui-toolbar-hidden do-not-print">
@@ -153,8 +465,8 @@
           </svg>
         </div>
         <div class="ui-action ui-note" id="ui-stats" style="width: 70px;">
-          151 cards<br />
-          10 pages
+          171 cards<br />
+          11 pages
         </div>
         <div id="toggle-card-backs" class="ui-action" onclick="toggleCardBacks();" title="Toggle card backs">
           <svg id="toggle-card-backs-on" width="18" height="18" viewBox="0 0 24 24">
@@ -225,7 +537,7 @@
     </div>
 
     <div class="ui-section do-not-print">
-      <p><strong>pokemon</strong></p>
+      <p><strong>cards</strong></p>
     </div>
     <div class="page">
       <div class="page-content">
@@ -731,11 +1043,11 @@
         <div class="page-footer-content"></div>
         <div class="page-footer-content"></div>
         <div class="page-footer-content"> </div>
-        <div class="page-footer-tag page-number-tag">Page 1 / 10</div>
+        <div class="page-footer-tag page-number-tag">Page 1 / 11</div>
       </div>
     </div>
     <div class="ui-section do-not-print">
-      <p><strong>pokemon</strong></p>
+      <p><strong>cards</strong></p>
     </div>
     <div class="page">
       <div class="page-content">
@@ -1241,11 +1553,11 @@
         <div class="page-footer-content"></div>
         <div class="page-footer-content"></div>
         <div class="page-footer-content"> </div>
-        <div class="page-footer-tag page-number-tag">Page 2 / 10</div>
+        <div class="page-footer-tag page-number-tag">Page 2 / 11</div>
       </div>
     </div>
     <div class="ui-section do-not-print">
-      <p><strong>pokemon</strong></p>
+      <p><strong>cards</strong></p>
     </div>
     <div class="page">
       <div class="page-content">
@@ -1751,11 +2063,11 @@
         <div class="page-footer-content"></div>
         <div class="page-footer-content"></div>
         <div class="page-footer-content"> </div>
-        <div class="page-footer-tag page-number-tag">Page 3 / 10</div>
+        <div class="page-footer-tag page-number-tag">Page 3 / 11</div>
       </div>
     </div>
     <div class="ui-section do-not-print">
-      <p><strong>pokemon</strong></p>
+      <p><strong>cards</strong></p>
     </div>
     <div class="page">
       <div class="page-content">
@@ -2261,11 +2573,11 @@
         <div class="page-footer-content"></div>
         <div class="page-footer-content"></div>
         <div class="page-footer-content"> </div>
-        <div class="page-footer-tag page-number-tag">Page 4 / 10</div>
+        <div class="page-footer-tag page-number-tag">Page 4 / 11</div>
       </div>
     </div>
     <div class="ui-section do-not-print">
-      <p><strong>pokemon</strong></p>
+      <p><strong>cards</strong></p>
     </div>
     <div class="page">
       <div class="page-content">
@@ -2771,11 +3083,11 @@
         <div class="page-footer-content"></div>
         <div class="page-footer-content"></div>
         <div class="page-footer-content"> </div>
-        <div class="page-footer-tag page-number-tag">Page 5 / 10</div>
+        <div class="page-footer-tag page-number-tag">Page 5 / 11</div>
       </div>
     </div>
     <div class="ui-section do-not-print">
-      <p><strong>pokemon</strong></p>
+      <p><strong>cards</strong></p>
     </div>
     <div class="page">
       <div class="page-content">
@@ -3281,11 +3593,11 @@
         <div class="page-footer-content"></div>
         <div class="page-footer-content"></div>
         <div class="page-footer-content"> </div>
-        <div class="page-footer-tag page-number-tag">Page 6 / 10</div>
+        <div class="page-footer-tag page-number-tag">Page 6 / 11</div>
       </div>
     </div>
     <div class="ui-section do-not-print">
-      <p><strong>pokemon</strong></p>
+      <p><strong>cards</strong></p>
     </div>
     <div class="page">
       <div class="page-content">
@@ -3791,11 +4103,11 @@
         <div class="page-footer-content"></div>
         <div class="page-footer-content"></div>
         <div class="page-footer-content"> </div>
-        <div class="page-footer-tag page-number-tag">Page 7 / 10</div>
+        <div class="page-footer-tag page-number-tag">Page 7 / 11</div>
       </div>
     </div>
     <div class="ui-section do-not-print">
-      <p><strong>pokemon</strong></p>
+      <p><strong>cards</strong></p>
     </div>
     <div class="page">
       <div class="page-content">
@@ -4301,11 +4613,11 @@
         <div class="page-footer-content"></div>
         <div class="page-footer-content"></div>
         <div class="page-footer-content"> </div>
-        <div class="page-footer-tag page-number-tag">Page 8 / 10</div>
+        <div class="page-footer-tag page-number-tag">Page 8 / 11</div>
       </div>
     </div>
     <div class="ui-section do-not-print">
-      <p><strong>pokemon</strong></p>
+      <p><strong>cards</strong></p>
     </div>
     <div class="page">
       <div class="page-content">
@@ -4811,11 +5123,11 @@
         <div class="page-footer-content"></div>
         <div class="page-footer-content"></div>
         <div class="page-footer-content"> </div>
-        <div class="page-footer-tag page-number-tag">Page 9 / 10</div>
+        <div class="page-footer-tag page-number-tag">Page 9 / 11</div>
       </div>
     </div>
     <div class="ui-section do-not-print">
-      <p><strong>pokemon</strong></p>
+      <p><strong>cards</strong></p>
     </div>
     <div class="page">
       <div class="page-content">
@@ -5036,13 +5348,751 @@
             </div>
           </div>
         </div>
+        <div class="card card-size-16x25">
+          <svg class="cut-guide cut-guide-top cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-top cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <div class="card-content">
+            <div style="text-align: center; font-family: Garamond;">
+                
+                <div class="layers">
+                    <img src="res/pokedex_front.png">
+                </div>
+                <h1 class="pokedex-title Elemental">Elemental</h1>
+                <div class="card-txt pokedex-txt">Different Pokémon types</div>
+                <div class="reward-container">
+                    <div class="centerbox">
+                        <div class="reward-left">
+                            <p>3 to 4</p>
+                            <p class="reward">4</p>
+                            <p class="points-txt">points</p>
+                        </div>
+                        <div class="reward-right">
+                            <p>5+</p>
+                            <p class="reward">7</p>
+                            <p class="points-txt">points</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="card card-size-16x25">
+          <svg class="cut-guide cut-guide-top cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-top cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <div class="card-content">
+            <div style="text-align: center; font-family: Garamond;">
+                
+                <div class="layers">
+                    <img src="res/pokedex_front.png">
+                </div>
+                <h1 class="pokedex-title Ash Ketchum">Ash Ketchum</h1>
+                <div class="card-txt pokedex-txt">Pokémon worth <4 points</div>
+                <div class="reward-container">
+                    <div class="centerbox">
+                        <div class="reward-left">
+                            <p>4 to 6</p>
+                            <p class="reward">3</p>
+                            <p class="points-txt">points</p>
+                        </div>
+                        <div class="reward-right">
+                            <p>7+</p>
+                            <p class="reward">6</p>
+                            <p class="points-txt">points</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="card card-size-16x25">
+          <svg class="cut-guide cut-guide-top cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-top cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <div class="card-content">
+            <div style="text-align: center; font-family: Garamond;">
+                
+                <div class="layers">
+                    <img src="res/pokedex_front.png">
+                </div>
+                <h1 class="pokedex-title Viridian Forest">Viridian Forest</h1>
+                <div class="card-txt pokedex-txt">Pokémon that can only live in <img src="res/forest_small.png"></div>
+                <div class="reward-container">
+                    <div class="centerbox">
+                        <div class="reward-left">
+                            <p>2 to 3</p>
+                            <p class="reward">3</p>
+                            <p class="points-txt">points</p>
+                        </div>
+                        <div class="reward-right">
+                            <p>4+</p>
+                            <p class="reward">8</p>
+                            <p class="points-txt">points</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="card card-size-16x25">
+          <svg class="cut-guide cut-guide-top cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-top cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <div class="card-content">
+            <div style="text-align: center; font-family: Garamond;">
+                
+                <div class="layers">
+                    <img src="res/pokedex_front.png">
+                </div>
+                <h1 class="pokedex-title Snoop">Snoop</h1>
+                <div class="card-txt pokedex-txt">Pokémon that can only live in <img src="res/grasslands_small.png"></div>
+                <div class="reward-container">
+                    <div class="centerbox">
+                        <div class="reward-left">
+                            <p>2 to 3</p>
+                            <p class="reward">3</p>
+                            <p class="points-txt">points</p>
+                        </div>
+                        <div class="reward-right">
+                            <p>4+</p>
+                            <p class="reward">8</p>
+                            <p class="points-txt">points</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="card card-size-16x25">
+          <svg class="cut-guide cut-guide-top cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-top cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <div class="card-content">
+            <div style="text-align: center; font-family: Garamond;">
+                
+                <div class="layers">
+                    <img src="res/pokedex_front.png">
+                </div>
+                <h1 class="pokedex-title Soggy feet">Soggy feet</h1>
+                <div class="card-txt pokedex-txt">Pokémon that can only live in <img src="res/wetlands_small.png"></div>
+                <div class="reward-container">
+                    <div class="centerbox">
+                        <div class="reward-left">
+                            <p>2 to 3</p>
+                            <p class="reward">3</p>
+                            <p class="points-txt">points</p>
+                        </div>
+                        <div class="reward-right">
+                            <p>4+</p>
+                            <p class="reward">8</p>
+                            <p class="points-txt">points</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="card card-size-16x25">
+          <svg class="cut-guide cut-guide-top cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-top cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <div class="card-content">
+            <div style="text-align: center; font-family: Garamond;">
+                
+                <div class="layers">
+                    <img src="res/pokedex_front.png">
+                </div>
+                <h1 class="pokedex-title Size Matters">Size Matters</h1>
+                <div class="card-txt pokedex-txt">Pokémon >1.5m</div>
+                <div class="reward-container">
+                    <div class="centerbox">
+                        <div class="reward-left">
+                            <p>4 to 5</p>
+                            <p class="reward">3</p>
+                            <p class="points-txt">points</p>
+                        </div>
+                        <div class="reward-right">
+                            <p>6+</p>
+                            <p class="reward">6</p>
+                            <p class="points-txt">points</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="card card-size-16x25">
+          <svg class="cut-guide cut-guide-top cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-top cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <div class="card-content">
+            <div style="text-align: center; font-family: Garamond;">
+                
+                <div class="layers">
+                    <img src="res/pokedex_front.png">
+                </div>
+                <h1 class="pokedex-title Ballsy">Ballsy</h1>
+                <div class="card-txt pokedex-txt">Pokémon with at least 1 <img src="res/pokeball.png"></div>
+                <div class="reward-container">
+                    <div class="centerbox">
+                        <div class="reward-left">
+                            <p>6 to 8</p>
+                            <p class="reward">3</p>
+                            <p class="points-txt">points</p>
+                        </div>
+                        <div class="reward-right">
+                            <p>9+</p>
+                            <p class="reward">6</p>
+                            <p class="points-txt">points</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="card card-size-16x25">
+          <svg class="cut-guide cut-guide-top cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-top cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <div class="card-content">
+            <div style="text-align: center; font-family: Garamond;">
+                
+                <div class="layers">
+                    <img src="res/pokedex_front.png">
+                </div>
+                <h1 class="pokedex-title Normality">Normality</h1>
+                <div class="card-txt pokedex-txt">Pokémon using <img src="res/normal_energy.png"></div>
+                <div class="reward-container">
+                    <div class="centerbox">
+                        <div class="reward-left">
+                            <p>3 to 5</p>
+                            <p class="reward">2</p>
+                            <p class="points-txt">points</p>
+                        </div>
+                        <div class="reward-right">
+                            <p>6+</p>
+                            <p class="reward">6</p>
+                            <p class="points-txt">points</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="card card-size-16x25">
+          <svg class="cut-guide cut-guide-top cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-top cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <div class="card-content">
+            <div style="text-align: center; font-family: Garamond;">
+                
+                <div class="layers">
+                    <img src="res/pokedex_front.png">
+                </div>
+                <h1 class="pokedex-title Electric!">Electric!</h1>
+                <div class="card-txt pokedex-txt"><img src="res/lightning_energy.png"> Pokémon</div>
+                <div class="reward-container">
+                    <div class="centerbox">
+                        <div class="reward-left">
+                            <p>1 to 3</p>
+                            <p class="reward">3</p>
+                            <p class="points-txt">points</p>
+                        </div>
+                        <div class="reward-right">
+                            <p>4+</p>
+                            <p class="reward">7</p>
+                            <p class="points-txt">points</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="page-footer">
         <div class="page-footer-content"></div>
         <div class="page-footer-content"></div>
         <div class="page-footer-content"></div>
         <div class="page-footer-content"> </div>
-        <div class="page-footer-tag page-number-tag">Page 10 / 10</div>
+        <div class="page-footer-tag page-number-tag">Page 10 / 11</div>
+      </div>
+    </div>
+    <div class="ui-section do-not-print">
+      <p><strong>cards</strong></p>
+    </div>
+    <div class="page">
+      <div class="page-content">
+        <div class="card card-size-16x25">
+          <svg class="cut-guide cut-guide-top cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-top cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <div class="card-content">
+            <div style="text-align: center; font-family: Garamond;">
+                
+                <div class="layers">
+                    <img src="res/pokedex_front.png">
+                </div>
+                <h1 class="pokedex-title Hot!">Hot!</h1>
+                <div class="card-txt pokedex-txt"><img src="res/fire_energy.png"> Pokémon</div>
+                <div class="reward-container">
+                    <div class="centerbox">
+                        <div class="reward-left">
+                            <p>1 to 3</p>
+                            <p class="reward">3</p>
+                            <p class="points-txt">points</p>
+                        </div>
+                        <div class="reward-right">
+                            <p>4+</p>
+                            <p class="reward">7</p>
+                            <p class="points-txt">points</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="card card-size-16x25">
+          <svg class="cut-guide cut-guide-top cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-top cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <div class="card-content">
+            <div style="text-align: center; font-family: Garamond;">
+                
+                <div class="layers">
+                    <img src="res/pokedex_front.png">
+                </div>
+                <h1 class="pokedex-title Hippie">Hippie</h1>
+                <div class="card-txt pokedex-txt"><img src="res/grass_energy.png"> Pokémon</div>
+                <div class="reward-container">
+                    <div class="centerbox">
+                        <div class="reward-left">
+                            <p>2 to 3</p>
+                            <p class="reward">3</p>
+                            <p class="points-txt">points</p>
+                        </div>
+                        <div class="reward-right">
+                            <p>4+</p>
+                            <p class="reward">7</p>
+                            <p class="points-txt">points</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="card card-size-16x25">
+          <svg class="cut-guide cut-guide-top cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-top cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <div class="card-content">
+            <div style="text-align: center; font-family: Garamond;">
+                
+                <div class="layers">
+                    <img src="res/pokedex_front.png">
+                </div>
+                <h1 class="pokedex-title Mental">Mental</h1>
+                <div class="card-txt pokedex-txt"><img src="res/psychic_energy.png"> Pokémon</div>
+                <div class="reward-container">
+                    <div class="centerbox">
+                        <div class="reward-left">
+                            <p>1 to 3</p>
+                            <p class="reward">3</p>
+                            <p class="points-txt">points</p>
+                        </div>
+                        <div class="reward-right">
+                            <p>4+</p>
+                            <p class="reward">7</p>
+                            <p class="points-txt">points</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="card card-size-16x25">
+          <svg class="cut-guide cut-guide-top cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-top cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <div class="card-content">
+            <div style="text-align: center; font-family: Garamond;">
+                
+                <div class="layers">
+                    <img src="res/pokedex_front.png">
+                </div>
+                <h1 class="pokedex-title Bully">Bully</h1>
+                <div class="card-txt pokedex-txt"><img src="res/fighting_energy.png"> Pokémon</div>
+                <div class="reward-container">
+                    <div class="centerbox">
+                        <div class="reward-left">
+                            <p>2 to 3</p>
+                            <p class="reward">4</p>
+                            <p class="points-txt">points</p>
+                        </div>
+                        <div class="reward-right">
+                            <p>4+</p>
+                            <p class="reward">7</p>
+                            <p class="points-txt">points</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="card card-size-16x25">
+          <svg class="cut-guide cut-guide-top cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-top cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <div class="card-content">
+            <div style="text-align: center; font-family: Garamond;">
+                
+                <div class="layers">
+                    <img src="res/pokedex_front.png">
+                </div>
+                <h1 class="pokedex-title Slippery">Slippery</h1>
+                <div class="card-txt pokedex-txt"><img src="res/water_energy.png"> Pokémon</div>
+                <div class="reward-container">
+                    <div class="centerbox">
+                        <div class="reward-left">
+                            <p>2 to 3</p>
+                            <p class="reward">3</p>
+                            <p class="points-txt">points</p>
+                        </div>
+                        <div class="reward-right">
+                            <p>4+</p>
+                            <p class="reward">7</p>
+                            <p class="points-txt">points</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="card card-size-16x25">
+          <svg class="cut-guide cut-guide-top cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-top cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <div class="card-content">
+            <div style="text-align: center; font-family: Garamond;">
+                
+                <div class="layers">
+                    <img src="res/pokedex_front.png">
+                </div>
+                <h1 class="pokedex-title Lonely">Lonely</h1>
+                <div class="card-txt pokedex-txt">Pokémon in your area with the fewest pokémon</div>
+                <div class="reward-container single">
+                    <p class="reward">3</p>
+                    <p class="points-txt">points</p>
+                    <p class="points-txt">per pokémon</p>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="card card-size-16x25">
+          <svg class="cut-guide cut-guide-top cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-top cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <div class="card-content">
+            <div style="text-align: center; font-family: Garamond;">
+                
+                <div class="layers">
+                    <img src="res/pokedex_front.png">
+                </div>
+                <h1 class="pokedex-title Even tempered">Even tempered</h1>
+                <div class="card-txt pokedex-txt">Odd-numbered Pokémon</div>
+                <div class="reward-container single">
+                    <p class="reward">2</p>
+                    <p class="points-txt">points</p>
+                    <p class="points-txt">per pokémon</p>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="card card-size-16x25">
+          <svg class="cut-guide cut-guide-top cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-top cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <div class="card-content">
+            <div style="text-align: center; font-family: Garamond;">
+                
+                <div class="layers">
+                    <img src="res/pokedex_front.png">
+                </div>
+                <h1 class="pokedex-title Odd one out">Odd one out</h1>
+                <div class="card-txt pokedex-txt">Even-numbered Pokémon</div>
+                <div class="reward-container single">
+                    <p class="reward">2</p>
+                    <p class="points-txt">points</p>
+                    <p class="points-txt">per pokémon</p>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="card card-size-16x25">
+          <svg class="cut-guide cut-guide-top cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-top cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <div class="card-content">
+            <div style="text-align: center; font-family: Garamond;">
+                
+                <div class="layers">
+                    <img src="res/pokedex_front.png">
+                </div>
+                <h1 class="pokedex-title Energetic">Energetic</h1>
+                <div class="card-txt pokedex-txt">Pokémon that require multiple energy types to play</div>
+                <div class="reward-container">
+                    <div class="centerbox">
+                        <div class="reward-left">
+                            <p>2 to 4</p>
+                            <p class="reward">4</p>
+                            <p class="points-txt">points</p>
+                        </div>
+                        <div class="reward-right">
+                            <p>5+</p>
+                            <p class="reward">8</p>
+                            <p class="points-txt">points</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="card card-size-16x25">
+          <svg class="cut-guide cut-guide-top cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-top cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <div class="card-content">
+            <div style="text-align: center; font-family: Garamond;">
+                
+                <div class="layers">
+                    <img src="res/pokedex_front.png">
+                </div>
+                <h1 class="pokedex-title Petting Zoo">Petting Zoo</h1>
+                <div class="card-txt pokedex-txt">Pokémon <1.0m</div>
+                <div class="reward-container">
+                    <div class="centerbox">
+                        <div class="reward-left">
+                            <p>3 to 5</p>
+                            <p class="reward">3</p>
+                            <p class="points-txt">points</p>
+                        </div>
+                        <div class="reward-right">
+                            <p>6+</p>
+                            <p class="reward">6</p>
+                            <p class="points-txt">points</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="card card-size-16x25">
+          <svg class="cut-guide cut-guide-top cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-top cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-left" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <svg class="cut-guide cut-guide-bottom cut-guide-right" viewBox="0 0 10 10">
+            <use xlink:href="#cut-guide-lines" />
+          </svg>
+          <div class="card-content">
+            <div style="text-align: center; font-family: Garamond;">
+                
+                <div class="layers">
+                    <img src="res/pokedex_front.png">
+                </div>
+                <h1 class="pokedex-title Gotta Catch 'Em All">Gotta Catch 'Em All</h1>
+                <div class="card-txt pokedex-txt">Pokémon with 4+ Pokéballs</div>
+                <div class="reward-container single">
+                    <p class="reward">1</p>
+                    <p class="points-txt">points</p>
+                    <p class="points-txt">per pokémon</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page-footer">
+        <div class="page-footer-content"></div>
+        <div class="page-footer-content"></div>
+        <div class="page-footer-content"></div>
+        <div class="page-footer-content"> </div>
+        <div class="page-footer-tag page-number-tag">Page 11 / 11</div>
       </div>
     </div>
 

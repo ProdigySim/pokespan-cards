@@ -19,6 +19,9 @@ BALLS_4,{{resources/balls/balls-4.png}}
 BALLS_5,{{resources/balls/balls-5.png}}
 BALLS_6,{{resources/balls/balls-6.png}}
 DICE,{{resources/symbols/dice.png}}
+CARDBACK_POKÉDEX,{{resources/cardbacks/pokedex_back.png}}
+POKÉDEX_FRONT,{{resources/cardbacks/pokedex_front.png}}
+CARDBACK_POKÉMON,{{resources/cardbacks/pokemon_back.png}}
 POKÉDEX,{{resources/cardbacks/pokedex.png}}
 POKÉMON,{{resources/cardbacks/cardback_small.png}}
 POKÉBALL,{{resources/intext/pokeball.png}}

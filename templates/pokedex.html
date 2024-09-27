@@ -1,0 +1,177 @@
+<div style="text-align: center; font-family: Garamond;">
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/cardenio-modern');
+        @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+        h1 {
+            font-family: 'Cardenio Modern', sans-serif;
+            font-size:1.5em;
+            margin-bottom:0em;
+            padding-left:5%;
+            padding-right:5%;
+        }
+        h2 {
+            font-family: 'Cardenio Modern', sans-serif;
+            margin:0em;
+            font-size:0.6em;
+            font-weight:400;
+            opacity: 0.8;
+        }
+        .layers {
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            position: absolute;
+            z-index:-1;
+        }
+        .layers img {
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100% 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        .card {
+            width: 41mm;
+            height: 63mm;
+            margin-bottom: 2mm;
+        }
+        .card-txt {
+            font-family: 'Cardenio Modern', sans-serif;
+            font-size:.8em;
+            padding:8%;
+            bottom: 12.5mm;
+            position: absolute;
+        }
+        .card-txt img {
+            margin-bottom: -6px;
+            height: 20px;
+        }
+        .pokemon-portrait {
+            width:80%;
+            transform: translateX(-50%);
+            height: auto;
+            top: 7mm;
+            position: absolute;
+            image-rendering: pixelated; /* Ensures the image stays sharp */
+            image-rendering: crisp-edges; /* Fallback for older browsers */
+            image-rendering: -moz-crisp-edges; /* Firefox */
+            image-rendering: -webkit-optimize-contrast;
+            z-index: 5;
+        }
+        .pokedex-title {
+            font-family: "Silkscreen", sans-serif;
+            font-weight: 400;
+            font-size: 0.8em;
+            top: 1mm;
+            margin-top: 5mm;
+        }
+        .pokedex-txt {
+            top: 15.5mm;
+            width: 100%;
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+        .Gotta, .Diversity {
+            font-size: 0.6em;
+            top: 1mm;
+            margin-top: 5.5mm;
+        }
+        .points {
+            font-family: "Silkscreen", sans-serif;
+            font-weight: 400;
+            position: absolute;
+            right: 1mm;
+            bottom: 1mm;
+            margin: 0;
+        }
+        .points-txt {
+            font-family: "Silkscreen", sans-serif;
+            font-weight: 400;
+            font-size: .6em;
+            margin: 0;
+        }
+        .height {
+            position: absolute;
+            right: 1mm;
+            bottom: 50%;
+            margin: 0;
+            font-size: .7em;
+            font-weight: 400;
+            font-family: "Silkscreen", sans-serif;
+            color: white;
+            transform: rotate(-90deg);
+        }
+        .WHEN_ACTIVATED {
+            background-color: rgba(0, 0, 0, 0.6);
+            color:white;
+            padding-top: .4em;
+            padding-bottom: .4em;
+        }
+        .BETWEEN_TURNS {
+            background-color: rgba(133, 62, 103, 0.6);
+            color:white;
+            padding-top: .4em;
+            padding-bottom: .4em;
+        }
+        .POKÉMON_POWER {
+            background-color: rgba(0, 98, 255, 0.6);
+            padding-top: .4em;
+            padding-bottom: .4em;
+        }
+        .Kangaskhan, .Aerodactyl {
+            font-size: 1.3em;
+        }
+        .Kangaskhan-img, .Gyarados-img, .Aerodactyl-img, .Exeggutor-img, .Hypno-img, .Cloyster-img, .Golbat-img, .Fearow-img{
+            top:5mm;
+        }
+        .reward-container{
+            position: absolute;
+            width: 100%;
+            bottom: 13mm;
+            display: flex;
+        }
+        .centerbox {
+            width: 80%;
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .reward-left, .reward-right {
+            width:50%;
+        }
+        .reward-left {
+            border-right: dashed 2px black;
+        }
+        .reward-left p, .reward-right p {
+            font-size:.6em;
+            margin:0;
+        }
+        .reward {
+            font-size: 1.5em !important;
+            font-family: "Silkscreen", sans-serif;
+        }
+    </style>
+    <div class="layers">
+        {{POKÉDEX_FRONT}}
+    </div>
+    <h1 class="pokedex-title {{title}}">{{ title }}</h1>
+    <div class="card-txt pokedex-txt">{{ text }}</div>
+    <div class="reward-container">
+        <div class="centerbox">
+            <div class="reward-left">
+                <p>{{no}}</p>
+                <p class="reward">{{zone}}</p>
+                <p class="points-txt">points</p>
+            </div>
+            <div class="reward-right">
+                <p>{{forest}}</p>
+                <p class="reward">{{grasslands}}</p>
+                <p class="points-txt">points</p>
+            </div>
+        </div>
+    </div>
+</div>
