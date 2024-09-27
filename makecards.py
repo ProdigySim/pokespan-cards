@@ -1,7 +1,7 @@
 import subprocess
 
 # Define the command as a list of strings
-command = ["cards", "make", "data/pokemon.csv", "-d", "defs.csv", "-o", "Pokemon", "--card-size=standard_mini"]
+command = ["cards", "make", "data/cards.csv", "-d", "defs.csv", "-o", "Pokemon", "--card-size=standard_mini"]
 
 # Execute the command
 try:

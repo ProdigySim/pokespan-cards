@@ -3,7 +3,7 @@
 Install [this branch](https://github.com/AEPSchmitt/cards.py) of cards.py
 
 ## Running
-Edit `data/pokemon.csv` to change card titles and text
+Edit `data/cards.csv` to change texts and titles
 
 Then use 
 ```
@@ -11,9 +11,9 @@ python makecards.py
 ```
 to re-generate cards.
 
-or
+or use
 ```
-cards make "data/pokemon.csv" -d defs.csv -o "Pokemon" --card-size=standard_mini
+cards make "data/cards.csv" -d defs.csv -o "Pokemon" --card-size=standard_mini
 ```
 to change parameters like output folder, csv-file or card size
 
