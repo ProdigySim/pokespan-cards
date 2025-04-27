@@ -235,11 +235,13 @@ svg:hover .hoverable {
   /* A4 portrait */
   width: 21cm;
   height: 29.7cm;
+  margin: 0 auto;
 
   /* Add some padding. Values higher than 0.97cm or lower than 0.5cm will cause problems */
   padding: 0.97cm;
 
-  background: #fff;
+  /* background: #fff;  */
+  background-color: #77c9f8;
 
   position: relative;
 
@@ -395,13 +397,7 @@ svg:hover .hoverable {
   }
 
   .page {
-    /* Safari-hack to avoid additional blank pages. Safari forces margins on the printed content,
-       so it likely goes beyond the paper bounds and thus a new page is added.
-      Chrome does not seem to have any issue with this setting, so we can just leave it here */
-      height: 0 !important;
-
       /* Page width is slightly reduced to combat browser-added margins, causing content to shrink */
-      width: 20cm !important;
       /* Padding is also reduced. Note that adjusting width affects padding needed, and vice versa */
       padding: 0.4cm;
 
@@ -409,7 +405,6 @@ svg:hover .hoverable {
     /* Safari - When printing: enable printing of backgrounds. */
 
     /* Clear any margins, but keep the current paddings. This is important */
-    margin: 0 !important;
 
     background: initial !important;
     box-shadow: none !important;
@@ -426,11 +421,6 @@ svg:hover .hoverable {
   }
 }
 
-.page {
-  padding: 0;
-  margin: 0 !important;
-  height: auto;
-}
 
 .page-footer {
   display: none !important

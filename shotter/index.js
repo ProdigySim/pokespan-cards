@@ -10,11 +10,13 @@ const page = await browser.newPage();
 await page.setViewport({
   width: 1080,
   height: 1920,
-  deviceScaleFactor: 4,
+  deviceScaleFactor: 2,
   isMobile: false
 });
 
 await page.goto("file:///home/tona/github/pokespan-cards/Pokemon_mod/generated/index.html");
+
+await page.screenshot({ path: "fullpage.png" })
 
 const cards = await page.$$(".card");
 let i = 1;
